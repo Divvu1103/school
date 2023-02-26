@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
 const Footer = () => {
@@ -34,10 +35,8 @@ const Footer = () => {
               <li>
                 <div className="text-white flex flex-row ">
                   {" "}
-                  <i class="fa-solid fa-phone text-2xl text-[#014A83] -ml-5"></i> 
-                    <div className="ml-4 font-bold text-xl">
-                      Phone
-                      </div> 
+                  <i class="fa-solid fa-phone text-2xl text-[#014A83] -ml-5"></i>
+                  <div className="ml-4 font-bold text-xl">Phone</div>
                 </div>
               </li>
               <li>
@@ -47,10 +46,12 @@ const Footer = () => {
                 <a className="text-white ">+91-+91-9554964674,+91-8127942568</a>
               </li>
               <li>
-                <div className="text-white "><i class="fa-regular fa-envelope text-2xl text-[#014A83] -ml-5"></i> 
-                    <div className="ml-4 font-bold text-xl">
+                <div className="text-white ">
+                  <i class="fa-regular fa-envelope text-2xl text-[#014A83] -ml-5"></i>
+                  <div className="ml-4 font-bold text-xl">
                     sbsdaddujiaydcollege@gmail.com
-                      </div> </div>
+                  </div>{" "}
+                </div>
               </li>
             </nav>
           </div>
@@ -92,7 +93,6 @@ const Footer = () => {
               </li>
             </nav>
           </div>
-       
         </div>
       </div>
       <div className="bg-gray-100">
