@@ -1,7 +1,11 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTty, faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import {
+  faTty,
+  faAngleDown,
+  faAngleUp,
+} from "@fortawesome/free-solid-svg-icons";
 import { faTelegram } from "@fortawesome/free-brands-svg-icons";
 import logo from "../images/logo.jpeg";
 
@@ -70,10 +74,17 @@ const Header = () => {
             onClick={() => setAboutToggle(false)}
           >
             About
-            <FontAwesomeIcon
-              icon={faAngleDown}
-              className="text-yellow-300 ml-2"
-            />
+            {!aboutToggle ? (
+              <FontAwesomeIcon
+                icon={faAngleDown}
+                className="text-yellow-300 ml-2"
+              />
+            ) : (
+              <FontAwesomeIcon
+                icon={faAngleUp}
+                className="text-yellow-300 ml-2"
+              />
+            )}
           </button>
           <ul className="flex flex-col justify-center items-center bg-white gap-y-3 absolute mt-14 -ml-5">
             {aboutToggle &&
