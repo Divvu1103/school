@@ -1,11 +1,38 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTty, faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { faTelegram } from "@fortawesome/free-brands-svg-icons";
 import logo from "../images/logo.jpeg";
 
 const Header = () => {
+  const [aboutToggle, setAboutToggle] = useState(false);
+  const aboutItems = [
+    {
+      title: "About College",
+      url: "/",
+    },
+    {
+      title: "Vision Mission",
+      url: "/",
+    },
+    {
+      title: "Chairman Message",
+      url: "/",
+    },
+    {
+      title: "Director Message",
+      url: "/",
+    },
+    {
+      title: "Principal Message",
+      url: "/",
+    },
+    {
+      title: "Approval & Affirmation",
+      url: "/",
+    },
+  ];
   return (
     <>
       <div className="bg-[#062b33] mt-7 flex items-center justify-between px-14 py-5">
@@ -23,7 +50,7 @@ const Header = () => {
           DOWNLOAD E-BROCHURE
         </button>
       </div>
-      <div className="bg-white border-b-2 shadow-xl px-10 py-5 flex items-center justify-between">
+      <nav className="bg-white border-b-2 shadow-xl px-10 py-5 flex items-center justify-between">
         <p className="flex items-center">
           <img src={logo} width={80} />
           <p className="text-[#062b33] text-xs w-[220px] ml-3 text-center">
@@ -34,16 +61,32 @@ const Header = () => {
             </p>
           </p>
         </p>
-        <button className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+        <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           Home
-        </button>
-        <button className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
-          About
-          <FontAwesomeIcon
-            icon={faAngleDown}
-            className="text-yellow-300 ml-2"
-          />
-        </button>
+        </ul>
+        <ul className="flex flex-col" onMouseEnter={() => setAboutToggle(true)}>
+          <button
+            className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2"
+            onClick={() => setAboutToggle(false)}
+          >
+            About
+            <FontAwesomeIcon
+              icon={faAngleDown}
+              className="text-yellow-300 ml-2"
+            />
+          </button>
+          <ul className="flex flex-col justify-center items-center bg-white gap-y-3 absolute mt-14 -ml-5">
+            {aboutToggle &&
+              aboutItems.map((menu, index) => (
+                <div key={index}>
+                  <li className="px-7 py-2 flex justify-center items-center">
+                    <a href={menu.url}>{menu.title}</a>
+                  </li>
+                  <p className="border-b-2" />
+                </div>
+              ))}
+          </ul>
+        </ul>
         <button className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           Academics
           <FontAwesomeIcon
@@ -51,38 +94,38 @@ const Header = () => {
             className="text-yellow-300 ml-2"
           />
         </button>
-        <button className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+        <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           Faculty
           <FontAwesomeIcon
             icon={faAngleDown}
             className="text-yellow-300 ml-2"
           />
-        </button>
-        <button className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+        </ul>
+        <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           News & Events
           <FontAwesomeIcon
             icon={faAngleDown}
             className="text-yellow-300 ml-2"
           />
-        </button>
-        <button className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+        </ul>
+        <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           NCISM Mandatory
           <FontAwesomeIcon
             icon={faAngleDown}
             className="text-yellow-300 ml-2"
           />
-        </button>
-        <button className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+        </ul>
+        <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           Contact Us
-        </button>
-        <button className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+        </ul>
+        <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           More
           <FontAwesomeIcon
             icon={faAngleDown}
             className="text-yellow-300 ml-2"
           />
-        </button>
-      </div>
+        </ul>
+      </nav>
     </>
   );
 };
