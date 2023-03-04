@@ -113,7 +113,7 @@ const Header = () => {
               />
             )}
           </button>
-          <ul className="flex flex-col justify-center items-center bg-white gap-y-3 absolute mt-14 -ml-5">
+          <ul className="flex flex-col justify-center items-center bg-white gap-y-3 absolute mt-14 -ml-5 z-10">
             {aboutToggle &&
               aboutItems.map((menu, index) => (
                 <div key={index}>
