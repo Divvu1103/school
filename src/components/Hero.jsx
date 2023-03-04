@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="flex flex-row  mx-auto w-11/12 my-1">
       <div className="mx-2">
         <img src="https://majorsdsu.com/assets/img/Untitled-1.png" className=""  alt="" />
-        <p className="bg-blue-800 text-white mt-2">Dr. Anar Singh Yadav (Chairman)
+        <p className="bg-[#062b33] text-white mt-2">Dr. Anar Singh Yadav (Chairman)
 M.Sc. (Physics), Phd., LL.B., B.Ed.</p>
       </div>
       <div className="mx-2">
@@ -29,7 +29,7 @@ M.Sc. (Physics), Phd., LL.B., B.Ed.</p>
       </div>
       <div className="mx-2">
         <img src="https://majorsdsu.com/assets/img/principal-img.jpeg" alt="" />
-        <p className="bg-blue-800 text-white mt-2">Dr. A.K. Batham (Principal)
+        <p className="bg-[#062b33] text-white mt-2">Dr. A.K. Batham (Principal)
 B.A.M.S., MD (Kayachikitsa)</p>
       </div>
     </div>
