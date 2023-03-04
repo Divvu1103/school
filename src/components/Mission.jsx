@@ -7,7 +7,7 @@ const Mission = () => {
         <div className="flex flex-col">
           <h2 className="font-bold text-2xl">VISION AND MISSION</h2> <br />
           <h2 className="text-xl">
-            The Aims and objectives of the National Commission for Indian System
+            The Aims and objectives of the National Commission <br /> for Indian System
             of Medicine are to -
           </h2>
         </div>
