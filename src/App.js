@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Mission from "./components/Mission";
 import Facilities from './components/Facilities';
+import Updates from "./components/Updates";
 const App = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const App = () => {
       <Hero />
       <Mission/>
       <Facilities/>
+      <Updates/>
       <Footer />
     </>
   );

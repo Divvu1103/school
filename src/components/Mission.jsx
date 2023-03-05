@@ -2,10 +2,10 @@ import React from "react";
 
 const Mission = () => {
   return (
-    <section class="text-gray-600 body-font">
+    <section class="text-gray-600 body-font my-2">
       <div class="container px-5 mx-auto flex flex-wrap">
         <div className="flex flex-col">
-          <h2 className="font-bold text-2xl">VISION AND MISSION</h2> <br />
+          <h2 className="font-semibold text-2xl text-black">VISION AND MISSION</h2> <br />
           <h2 className="text-xl">
             The Aims and objectives of the National Commission <br /> for Indian System
             of Medicine are to -
