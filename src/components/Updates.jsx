@@ -6,7 +6,7 @@ import Updatepoint from "./Updatepoint";
 
 const Updates = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -22,7 +22,7 @@ const Updates = () => {
     },
   };
   return (
-    <div className="flex flex-col gap-y-2">
+    <div className="flex flex-col gap-y-2 mt-10">
       <h2 className="mx-auto text-2xl font-semibold  underline underline-offset-8">
         Latest Updates
       </h2>

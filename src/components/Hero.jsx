@@ -2,17 +2,19 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex flex-row  mx-auto w-11/12 my-1">
-      <div className="mx-2">
-        <img src="https://majorsdsu.com/assets/img/Untitled-1.png" className=""  alt="" />
-        <p className="bg-[#062b33] text-white mt-2">Dr. Anar Singh Yadav (Chairman)
-M.Sc. (Physics), Phd., LL.B., B.Ed.</p>
+    <div className="flex flex-row my-5 items-center mx-52">
+      <div className="w-[200px]">
+        <img
+          src="https://majorsdsu.com/assets/img/Untitled-1.png"
+          className=""
+          alt=""
+        />
+        <p className="bg-[#062b33] text-white mt-2 p-2">
+          Dr. Anar Singh Yadav (Chairman) M.Sc. (Physics), Phd., LL.B., B.Ed.
+        </p>
       </div>
       <div className="mx-2">
-        <h1 className="text-black font-bold text-3xl">
-
-        Introduction
-        </h1>
+        <h1 className="text-black font-bold text-3xl">Introduction</h1>
         <p>
           Shri Babu Singh Daddu Ji Ayurvedic Medical College & Hospital Founded
           by Shri Babu Singh Daddu Ji Educational Trust is situated at 8th
@@ -27,10 +29,11 @@ M.Sc. (Physics), Phd., LL.B., B.Ed.</p>
           and humble people of india.
         </p>
       </div>
-      <div className="mx-2">
+      <div className="w-[200px]">
         <img src="https://majorsdsu.com/assets/img/principal-img.jpeg" alt="" />
-        <p className="bg-[#062b33] text-white mt-2">Dr. A.K. Batham (Principal)
-B.A.M.S., MD (Kayachikitsa)</p>
+        <p className="bg-[#062b33] text-white mt-2 p-2">
+          Dr. A.K. Batham (Principal) B.A.M.S., MD (Kayachikitsa)
+        </p>
       </div>
     </div>
   );
