@@ -8,6 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faTelegram } from "@fortawesome/free-brands-svg-icons";
 import logo from "../images/logo.jpeg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [aboutToggle, setAboutToggle] = useState(false);
@@ -15,11 +16,11 @@ const Header = () => {
   const aboutItems = [
     {
       title: "Overview",
-      url: "/",
+      url: "/overview",
     },
     {
       title: " Mission and Vision",
-      url: "/",
+      url: "/vision",
     },
     {
       title: "Fountained Inspiration",
@@ -29,7 +30,6 @@ const Header = () => {
       title: "Leadership",
       url: "/",
     },
-    
   ];
   const academicItems = [
     {
@@ -44,7 +44,6 @@ const Header = () => {
       title: "Facilities",
       url: "/",
     },
-    
   ];
   return (
     <>
@@ -74,9 +73,12 @@ const Header = () => {
             </p>
           </p>
         </p>
-        <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+        <Link
+          to="/"
+          className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2"
+        >
           Home
-        </ul>
+        </Link>
         <ul className="flex flex-col" onMouseEnter={() => setAboutToggle(true)}>
           <button
             className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2"
@@ -100,7 +102,7 @@ const Header = () => {
               aboutItems.map((menu, index) => (
                 <div key={index}>
                   <li className="px-7 py-2 flex justify-center items-center">
-                    <a href={menu.url}>{menu.title}</a>
+                    <Link to={menu.url}>{menu.title}</Link>
                   </li>
                   <p className="border-b-2" />
                 </div>
@@ -128,7 +130,7 @@ const Header = () => {
               />
             )}
           </button>
-          <ul className="flex flex-col justify-center items-center bg-white gap-y-3 absolute mt-14 -ml-5">
+          <ul className="flex flex-col justify-center items-center bg-white gap-y-3 absolute mt-14 -ml-5 z-10">
             {academicToggle &&
               academicItems.map((menu, index) => (
                 <div key={index}>
@@ -142,7 +144,6 @@ const Header = () => {
         </ul>
         <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           Faculty
-          
         </ul>
         <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           News & Events
@@ -153,7 +154,6 @@ const Header = () => {
         </ul>
         <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           NCISM Mandatory
-          
         </ul>
         <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           Contact Us

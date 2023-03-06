@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import Carousel from "./components/Carousel";
 import Header from "./components/Header";
@@ -6,19 +7,45 @@ import Hero from "./components/Hero";
 import Mission from "./components/Mission";
 import Facilities from "./components/Facilities";
 import Updates from "./components/Updates";
-import ReactWhatsapp from "react-whatsapp";
-const App = () => {
+import { Routes, Route, BrowserRouter, Link } from "react-router-dom";
+import Overview from "./pages/Overview";
+import Vision from "./pages/Vision";
+import whatsapp from "../src/images/whatsapp.gif";
+
+const Home = () => {
   return (
     <>
-      <Header />
       <Carousel />
       <Hero />
       <Mission />
       <Facilities />
       <Updates />
-      <Footer />
-      <ReactWhatsapp number="1-212-736-5000" message="Hello World!!!" />
     </>
+  );
+};
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/overview" element={<Overview />} />
+        <Route path="/vision" element={<Vision />} />
+      </Routes>
+      <a href="www.webwhatsapp.com" target="_blank">
+        <img
+          src={whatsapp}
+          style={{
+            position: "absolute",
+            width: 100,
+            right: 30,
+            marginTop: 300,
+          }}
+        />
+      </a>
+
+      <Footer />
+    </BrowserRouter>
   );
 };
 
