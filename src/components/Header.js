@@ -14,55 +14,37 @@ const Header = () => {
   const [academicToggle, setAcademicToggle] = useState(false);
   const aboutItems = [
     {
-      title: "About College",
+      title: "Overview",
       url: "/",
     },
     {
-      title: "Vision Mission",
+      title: " Mission and Vision",
       url: "/",
     },
     {
-      title: "Chairman Message",
+      title: "Fountained Inspiration",
       url: "/",
     },
     {
-      title: "Director Message",
+      title: "Leadership",
       url: "/",
     },
-    {
-      title: "Principal Message",
-      url: "/",
-    },
-    {
-      title: "Approval & Affirmation",
-      url: "/",
-    },
+    
   ];
   const academicItems = [
     {
-      title: "About College",
+      title: "Courses",
       url: "/",
     },
     {
-      title: "Vision Mission",
+      title: "Departments",
       url: "/",
     },
     {
-      title: "Chairman Message",
+      title: "Facilities",
       url: "/",
     },
-    {
-      title: "Director Message",
-      url: "/",
-    },
-    {
-      title: "Principal Message",
-      url: "/",
-    },
-    {
-      title: "Approval & Affirmation",
-      url: "/",
-    },
+    
   ];
   return (
     <>
@@ -160,10 +142,7 @@ const Header = () => {
         </ul>
         <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           Faculty
-          <FontAwesomeIcon
-            icon={faAngleDown}
-            className="text-yellow-300 ml-2"
-          />
+          
         </ul>
         <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           News & Events
@@ -174,10 +153,7 @@ const Header = () => {
         </ul>
         <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           NCISM Mandatory
-          <FontAwesomeIcon
-            icon={faAngleDown}
-            className="text-yellow-300 ml-2"
-          />
+          
         </ul>
         <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           Contact Us
