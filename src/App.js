@@ -10,6 +10,9 @@ import Updates from "./components/Updates";
 import { Routes, Route, BrowserRouter, Link } from "react-router-dom";
 import Overview from "./pages/Overview";
 import Vision from "./pages/Vision";
+import Inspiration from "./pages/Inspiration";
+import Leadership from "./pages/Leadership";
+import Courses from './pages/Courses'
 import whatsapp from "../src/images/whatsapp.gif";
 
 const Home = () => {
@@ -31,6 +34,9 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/overview" element={<Overview />} />
         <Route path="/vision" element={<Vision />} />
+        <Route path="/inspiration" element={<Inspiration />} />
+        <Route path="/leadership" element={<Leadership />} />
+        <Route path="/courses" element={<Courses />} />
       </Routes>
       <a href="www.webwhatsapp.com" target="_blank">
         <img

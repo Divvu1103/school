@@ -24,17 +24,17 @@ const Header = () => {
     },
     {
       title: "Fountained Inspiration",
-      url: "/",
+      url: "/inspiration",
     },
     {
       title: "Leadership",
-      url: "/",
+      url: "/leadership",
     },
   ];
   const academicItems = [
     {
       title: "Courses",
-      url: "/",
+      url: "/courses",
     },
     {
       title: "Departments",
