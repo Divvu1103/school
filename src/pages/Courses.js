@@ -25,27 +25,72 @@ const Courses = () => {
           herbs, vegetables, and plants.
         </p>
         <p className="text-2xl font-semibold">BAMS Course Highlights</p>
-        <div className="flex flex-row flex-wrap" >
+        <div
+          className="flex flex-row flex-wrap justify-center w-1/2
+         items-center"
+        >
           <p className="text-1xl font-semibold basis-1/2">Levels</p>
           <p className="text-1xl  basis-1/2">B.A.M.S. - UG (Undergraduate)</p>
           <p className="text-1xl font-semibold basis-1/2">Duration</p>
-          <p className="text-1xl  basis-1/2">4 Years 6 Months + 1 Year Internship (Hospital Training)</p>
-          <p className="text-1xl font-semibold basis-1/2">Minimum Academic Requirement</p>
-          <p className="text-1xl  basis-1/2">	10+2 (Science Stream) + NEET (Qualified)</p>
-          <p className="text-1xl font-semibold basis-1/2">Subject Requirement</p>
+          <p className="text-1xl  basis-1/2">
+            4 Years 6 Months + 1 Year Internship (Hospital Training)
+          </p>
+          <p className="text-1xl font-semibold basis-1/2">
+            Minimum Academic Requirement
+          </p>
+          <p className="text-1xl  basis-1/2">
+            {" "}
+            10+2 (Science Stream) + NEET (Qualified)
+          </p>
+          <p className="text-1xl font-semibold basis-1/2">
+            Subject Requirement
+          </p>
           <p className="text-1xl  basis-1/2">Physics, Chemistry and Biology</p>
-          <p className="text-1xl font-semibold basis-1/2">Minimum Aggregate Score Requirement</p>
+          <p className="text-1xl font-semibold basis-1/2">
+            Minimum Aggregate Score Requirement
+          </p>
           <p className="text-1xl  basis-1/2">50% or More</p>
           <p className="text-1xl font-semibold basis-1/2">Exam Type</p>
-          <p className="text-1xl  basis-1/2">	4 Phase exams</p>
-          <p className="text-1xl font-semibold basis-1/2">Admission/ Selection Process</p>
+          <p className="text-1xl  basis-1/2"> 4 Phase exams</p>
+          <p className="text-1xl font-semibold basis-1/2">
+            Admission/ Selection Process
+          </p>
           <p className="text-1xl  basis-1/2">Entrance Exam Based</p>
           <p className="text-1xl font-semibold basis-1/2">Exams Accepted</p>
           <p className="text-1xl  basis-1/2">NEET</p>
           <p className="text-1xl font-semibold basis-1/2">Average Course Fee</p>
           <p className="text-1xl  basis-1/2">2,52,900 Per Anum</p>
         </div>
-        
+        <p className="text-2xl font-semibold">
+          Bachelor of Ayurveda Medical and Surgery (BAMS) Eligibility Criteria
+        </p>
+        <p className="text-1xl  basis-1/2">
+          {" "}
+          <i class="fa-sharp fa-solid fa-arrow-right"></i>
+          Minimum Educational Qualification Required: 10+2 or equivalent
+          examination with Science (Physics, <br /> Chemistry and Biology) as
+          mandatory subjects. <br />
+          <i class="fa-sharp fa-solid fa-arrow-right"></i>
+          Minimum Marks Required: 50% to 60%, varies from college to college.{" "}
+          <br />
+          <i class="fa-sharp fa-solid fa-arrow-right"></i>
+          Age Limit: As per Government norms.
+        </p>
+        <p className="text-2xl font-semibold">BAMS Admission Process</p>
+        <p className="text-1xl  basis-1/2">
+          {" "}
+          <i class="fa-sharp fa-solid fa-arrow-right"></i>
+          BAMS admissions in India are done on the basis of entrance exams.{" "}
+          <br />
+          <i class="fa-sharp fa-solid fa-arrow-right"></i>
+          After the results are out, the conducting authority of the
+          examinations prepares a merit list, basis which counselling process is
+          conducted.
+          <br />
+          <i class="fa-sharp fa-solid fa-arrow-right"></i>
+          Candidates who make it in the counselling process are allocated seats
+          for BAMS course at different colleges.
+        </p>
       </div>
     </div>
   );
