@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex flex-row my-5 items-center mx-52">
+    <div className="flex flex-row my-5 items-center mx-52 mid">
       <div className="w-[200px]">
         <img
           src="https://majorsdsu.com/assets/img/Untitled-1.png"
@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
       <div className="mx-2">
         <h1 className="text-black font-bold text-3xl">Introduction</h1>
-        <p>
+        <p className="midText">
           Shri Babu Singh Daddu Ji Ayurvedic Medical College & Hospital Founded
           by Shri Babu Singh Daddu Ji Educational Trust is situated at 8th
           milestone from fatehgarh city at farrukhabad kanpur state highway the
