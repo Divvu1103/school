@@ -7,12 +7,12 @@ import Hero from "./components/Hero";
 import Mission from "./components/Mission";
 import Facilities from "./components/Facilities";
 import Updates from "./components/Updates";
-import { Routes, Route, BrowserRouter, Link } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Overview from "./pages/Overview";
 import Vision from "./pages/Vision";
 import Inspiration from "./pages/Inspiration";
 import Leadership from "./pages/Leadership";
-import Courses from './pages/Courses'
+import Courses from "./pages/Courses";
 import whatsapp from "../src/images/whatsapp.gif";
 
 const Home = () => {

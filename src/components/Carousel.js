@@ -18,8 +18,8 @@ const Carousel = () => {
   return (
     <div classNameName="px-10 mt-10">
       <Slider {...settings}>
-        <img src={banner1} />
-        <img src={banner2} />
+        <img src={banner1} className="img" />
+        <img src={banner2} className="img" />
       </Slider>
     </div>
   );

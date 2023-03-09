@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-white body-font bg-[#00142A]">
+    <footer className="text-white body-font bg-[#00142A] foot">
       <div className="container px-5 py-24  flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-1/4 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <span className="ml-3 text-lg">
@@ -90,18 +90,24 @@ const Footer = () => {
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 className="title-font  text-white tracking-widest text-2xl font-bold mb-3">
+            <h2 className="title-font  text-white tracking-widest text-2xl font-bold mb-3">
               Important Links
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-white  text-base font-bold ">www.ayush.gov.in</a>
+                <a className="text-white  text-base font-bold ">
+                  www.ayush.gov.in
+                </a>
               </li>
               <li>
-                <a className="text-white  text-base font-bold ">www.ncismindia.orgk</a>
+                <a className="text-white  text-base font-bold ">
+                  www.ncismindia.orgk
+                </a>
               </li>
               <li>
-                <a className="text-white  text-base font-bold ">www.kanpuruniversity.org</a>
+                <a className="text-white  text-base font-bold ">
+                  www.kanpuruniversity.org
+                </a>
               </li>
               <li>
                 <a className="text-white  text-base font-bold ">Fourth Link</a>
@@ -111,7 +117,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-bg-[#00142A] border-t-2 border-gray-500">
-        <p className="mx-auto text-white text-center py-5 "> Copyright © 2023 SBSDJ Ayurvedic Medical College & Hospital. All Rights Reserved.  Powered By SOM SOFTWARE INFOTECH</p>
+        <p className="mx-auto text-white text-center py-5 ">
+          {" "}
+          Copyright © 2023 SBSDJ Ayurvedic Medical College & Hospital. All
+          Rights Reserved. Powered By SOM SOFTWARE INFOTECH
+        </p>
       </div>
     </footer>
   );

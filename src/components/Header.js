@@ -47,7 +47,7 @@ const Header = () => {
   ];
   return (
     <>
-      <div className="bg-[#062b33] mt-7 flex items-center justify-between px-14 py-5">
+      <div className="bg-[#062b33] mt-7 flex items-center justify-between px-14 py-5 header">
         <p className="text-white">ADDRESS: FATEHGARH, FARRUKHABAD-209749</p>
         <p className="text-white">EMAIL: sbsdaddujiaydcollege@gmail.com</p>
         <p className="flex items-center">
@@ -62,7 +62,7 @@ const Header = () => {
           DOWNLOAD E-BROCHURE
         </button>
       </div>
-      <nav className="bg-white border-b-2 shadow-xl px-10 py-5 flex items-center justify-between">
+      <nav className="bg-white border-b-2 shadow-xl px-10 py-5 flex items-center justify-between nav">
         <p className="flex items-center">
           <img src={logo} width={80} />
           <p className="text-[#062b33] text-xs w-[220px] ml-3 text-center">
