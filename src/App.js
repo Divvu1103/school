@@ -38,7 +38,7 @@ const App = () => {
         <Route path="/leadership" element={<Leadership />} />
         <Route path="/courses" element={<Courses />} />
       </Routes>
-      <a href="www.webwhatsapp.com" target="_blank">
+      {/* <a href="www.webwhatsapp.com" target="_blank">
         <img
           src={whatsapp}
           style={{
@@ -48,7 +48,7 @@ const App = () => {
             marginTop: 300,
           }}
         />
-      </a>
+      </a> */}
 
       <Footer />
     </BrowserRouter>
