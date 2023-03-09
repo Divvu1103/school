@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="text-white body-font bg-[#00142A]">
-      <div className="container px-2 sm:px-5 py-12 sm:py-24  flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div className="container px-5 py-24  flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-1/4 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <span className="ml-3 text-lg">
             SHRI BABU SINGH DADDU JI AYURVEDIC MEDICAL COLLEGE & HOSPITAL
