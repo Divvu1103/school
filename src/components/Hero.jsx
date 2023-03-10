@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex flex-row my-5 items-center mx-auto mid">
-      <div className="w-[20vw]">
+    <div className="flex flex-row my-5 items-center mx-10 mid">
+      <div className="sm:w-[60vw]">
         <img
           src="https://majorsdsu.com/assets/img/Untitled-1.png"
           className=""
@@ -14,7 +14,7 @@ const Hero = () => {
         </p>
       </div>
       <div className="mx-2">
-        <h1 className="text-black font-bold text-3xl">Introduction</h1>
+        <h1 className="text-black font-bold text-3xl overflow-hidden">Introduction</h1>
         <p className="midText">
           Shri Babu Singh Daddu Ji Ayurvedic Medical College & Hospital Founded
           by Shri Babu Singh Daddu Ji Educational Trust is situated at 8th
@@ -29,7 +29,7 @@ const Hero = () => {
           and humble people of india.
         </p>
       </div>
-      <div className="w-[200px]">
+      <div className="sm:w-[60vw]">
         <img src="https://majorsdsu.com/assets/img/principal-img.jpeg" alt="" />
         <p className="bg-[#062b33] text-white mt-2 p-2">
           Dr. A.K. Batham (Principal) B.A.M.S., MD (Kayachikitsa)
