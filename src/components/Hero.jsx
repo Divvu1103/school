@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex flex-row my-5 items-center mx-52 mid">
-      <div className="w-[200px]">
+    <div className="flex flex-row my-5 items-center mx-auto mid">
+      <div className="w-[20vw]">
         <img
           src="https://majorsdsu.com/assets/img/Untitled-1.png"
           className=""
