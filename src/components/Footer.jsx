@@ -35,7 +35,7 @@ const Footer = () => {
               <li>
                 <div className="text-white flex flex-row ">
                   {" "}
-                  <i class="fa-solid fa-phone text-2xl text-[#014A83] -ml-5"></i>
+                  <i class="fa-solid fa-phone text-2xl text-[#014A83]"></i>
                   <div className="ml-4 font-bold text-xl">Phone</div>
                 </div>
               </li>
@@ -47,7 +47,7 @@ const Footer = () => {
               </li>
               <li>
                 <div className="text-white ">
-                  <i class="fa-regular fa-envelope text-2xl text-[#014A83] -ml-5"></i>
+                  <i class="fa-regular fa-envelope text-2xl text-[#014A83]"></i>
                   <div className="font-bold text-base sm:text-xl -ml-10">
                     sbsdaddujiaydcollege@gmail.com
                   </div>{" "}
