@@ -26,14 +26,14 @@ const Updates = () => {
       <h2 className="mx-auto text-2xl font-semibold  underline underline-offset-8">
         Latest Updates
       </h2>
-      <div className=" mx-12 my-4 flex w-3/4 h-2/4 ">
+      <div className=" justify-center mx-2 sm:mx-12 my-4 flex  w-full sm:w-3/4 h-auto sm:h-2/4 ">
         <img
           src="https://majorsdsu.com/assets/yoga-banner-4.jpeg"
-          className="mx-2 w-2/4 h-2/4 "
+          className="mx-2 w-2/4 h-2/4  opacity-0 sm:opacity-100 "
           alt=""
         />
         <div
-          className="flex-1 mx-5 mt-20
+          className="flex-1 -mx-11 sm:mx-5 mt-20
         "
         >
           <Slider {...settings}>

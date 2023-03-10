@@ -4,8 +4,8 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="text-white body-font bg-[#00142A]">
-      <div className="container px-5 py-24  flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-        <div className="w-1/4 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+      <div className="container px-5  py-8 sm:py-24  flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div className="w-auto sm:w-1/4 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <span className="ml-3 text-lg">
             SHRI BABU SINGH DADDU JI AYURVEDIC MEDICAL COLLEGE & HOSPITAL
           </span>
@@ -14,14 +14,14 @@ const Footer = () => {
             Kanpur Road, Krishna Nagar Baghar - Fatehgarh, Farrukhabad Uttar
             Pradesh India - 209749
           </p>
-          <div className="flex  -ml-7 sm:ml-1 gap-x-3 mt-3">
-            <p className=" p-4  border border-gray-400 hover:bg-blue-700 hover:scale-95 transition ease-in rounded-lg ">
+          <div className="flex  gap-x-3 mt-3">
+            <p className=" p-4  mx-auto  border border-gray-400 hover:bg-blue-700 hover:scale-95 transition ease-in rounded-lg ">
               <i class="fa-brands fa-facebook-f text-2xl"></i>
             </p>
-            <p className="p-4 border border-gray-400 hover:bg-blue-700 hover:scale-95 transition ease-in rounded-lg">
+            <p className="p-4 mx-auto  border border-gray-400 hover:bg-blue-700 hover:scale-95 transition ease-in rounded-lg">
               <i class="fa-sharp fa-regular fa-envelope text-2xl"></i>
             </p>
-            <p className="p-4 border border-gray-400 hover:bg-blue-700 hover:scale-95 transition ease-in rounded-lg">
+            <p className="p-4  mx-auto border border-gray-400 hover:bg-blue-700 hover:scale-95 transition ease-in rounded-lg">
               <i class="fa-brands fa-instagram text-2xl"></i>
             </p>
           </div>
@@ -48,7 +48,7 @@ const Footer = () => {
               <li>
                 <div className="text-white ">
                   <i class="fa-regular fa-envelope text-2xl text-[#014A83] -ml-5"></i>
-                  <div className="font-bold text-xl -ml-10">
+                  <div className="font-bold text-base sm:text-xl -ml-10">
                     sbsdaddujiaydcollege@gmail.com
                   </div>{" "}
                 </div>
@@ -117,7 +117,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-bg-[#00142A] border-t-2 border-gray-500">
-        <p className="mx-auto text-white text-center py-5 ">
+        <p className="mx-auto text-white text-sm sm:text-base text-center py-5 ">
           {" "}
           Copyright © 2023 SBSDJ Ayurvedic Medical College & Hospital. All
           Rights Reserved. Powered By SOM SOFTWARE INFOTECH
