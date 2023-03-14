@@ -70,7 +70,7 @@ const Mission = () => {
               </div>
             </div>
             <div class="flex relative">
-              <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#14330] hover:bg-[#FFF000] transition ease-in inline-flex items-center justify-center text-white relative z-10">
+              <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#143306]  hover:bg-[#FFF000] transition ease-in inline-flex items-center justify-center text-white relative z-10">
                 <p className="text-2xl">6</p>
               </div>
               <div class="flex-grow pl-4">
