@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex flex-row my-5 items-center mx-10 mid">
+    <div className="flex content-center flex-row my-5 items-center mx-10 mid">
       <div className="w-11/12 sm:w-[60vw]">
         <img
           src="https://majorsdsu.com/assets/img/Untitled-1.png"

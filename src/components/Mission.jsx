@@ -13,7 +13,7 @@ const Mission = () => {
         </div>
         <div class="flex flex-wrap w-full">
           <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
-            <div class="flex relative pb-9">
+            <div class="flex relative pb-2">
               <div class="h-full w-10 absolute inset-0 flex items-center justify-center"></div>
               <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#143306] hover:bg-[#FFF000] transition ease-in inline-flex items-center justify-center text-white relative z-10">
                 <p className="text-2xl">1</p>
@@ -25,7 +25,7 @@ const Mission = () => {
                 </h2>
               </div>
             </div>
-            <div class="flex relative pb-9">
+            <div class="flex relative pb-2">
               <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#143306] hover:bg-[#FFF000] transition ease-in inline-flex items-center justify-center text-white relative z-10">
                 <p className="text-2xl">2</p>
               </div>
@@ -35,7 +35,7 @@ const Mission = () => {
                 </h2>
               </div>
             </div>
-            <div class="flex relative pb-9">
+            <div class="flex relative pb-2">
               <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#143306] hover:bg-[#FFF000] transition ease-in inline-flex items-center justify-center text-white relative z-10">
                 <p className="text-2xl">3</p>
               </div>
@@ -46,7 +46,7 @@ const Mission = () => {
                 </h2>
               </div>
             </div>
-            <div class="flex relative pb-9">
+            <div class="flex relative pb-2">
               <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#143306] hover:bg-[#FFF000] transition ease-in inline-flex items-center justify-center text-white relative z-10">
                 <p className="text-2xl">4</p>
               </div>
@@ -58,7 +58,7 @@ const Mission = () => {
                 </h2>
               </div>
             </div>
-            <div class="flex relative pb-9">
+            <div class="flex relative pb-2">
               <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#143306] hover:bg-orange-300 transition ease-in inline-flex items-center justify-center text-white relative z-10">
                 <p className="text-2xl">5</p>
               </div>
