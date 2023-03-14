@@ -13,6 +13,7 @@ import Vision from "./pages/Vision";
 import Inspiration from "./pages/Inspiration";
 import Leadership from "./pages/Leadership";
 import Courses from "./pages/Courses";
+import Course from "./components/Course";
 import whatsapp from "../src/images/whatsapp.gif";
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
       <Hero />
       <Mission />
       <Facilities />
+      <Course />
       <Updates />
     </>
   );

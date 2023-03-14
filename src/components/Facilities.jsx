@@ -41,7 +41,7 @@ const Facilities = () => {
   };
   return (
     <div>
-      <h1 className="text-center text-[#062b33] font-bold text-3xl my-10">
+      <h1 className="text-center text-[#062b33] font-bold text-3xl my-10 overflow-hidden">
         Our Facilities
       </h1>
       <Slider {...settings} className="mx-20">
