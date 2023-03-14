@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-white body-font bg-[#00142A]">
+    <footer className="text-white body-font bg-[#143306]">
       <div className="container px-5  py-8 sm:py-24  flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-auto sm:w-1/4 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <span className="ml-3 text-lg">
@@ -15,13 +15,13 @@ const Footer = () => {
             Pradesh India - 209749
           </p>
           <div className="flex  gap-x-3 mt-3">
-            <p className=" p-4  mx-auto  border border-gray-400 hover:bg-blue-700 hover:scale-95 transition ease-in rounded-lg ">
+            <p className=" p-4  mx-auto  border border-gray-400 hover:bg-[#fff000] hover:scale-95 transition ease-in rounded-lg ">
               <i class="fa-brands fa-facebook-f text-2xl"></i>
             </p>
-            <p className="p-4 mx-auto  border border-gray-400 hover:bg-blue-700 hover:scale-95 transition ease-in rounded-lg">
+            <p className="p-4 mx-auto  border border-gray-400 hover:bg-[#fff000] hover:scale-95 transition ease-in rounded-lg">
               <i class="fa-sharp fa-regular fa-envelope text-2xl"></i>
             </p>
-            <p className="p-4  mx-auto border border-gray-400 hover:bg-blue-700 hover:scale-95 transition ease-in rounded-lg">
+            <p className="p-4  mx-auto border border-gray-400 hover:bg-[#fff000] hover:scale-95 transition ease-in rounded-lg">
               <i class="fa-brands fa-instagram text-2xl"></i>
             </p>
           </div>
@@ -35,7 +35,7 @@ const Footer = () => {
               <li>
                 <div className="text-white flex flex-row ">
                   {" "}
-                  <i class="fa-solid fa-phone text-2xl text-[#014A83]"></i>
+                  <i class="fa-solid fa-phone text-2xl text-[#fff000]"></i>
                   <div className="ml-4 font-bold text-xl">Phone</div>
                 </div>
               </li>
@@ -47,7 +47,7 @@ const Footer = () => {
               </li>
               <li>
                 <div className="text-white ">
-                  <i class="fa-regular fa-envelope text-2xl text-[#014A83]"></i>
+                  <i class="fa-regular fa-envelope text-2xl text-[#fff000]"></i>
                   <div className="font-bold text-base sm:text-xl -ml-10">
                     sbsdaddujiaydcollege@gmail.com
                   </div>{" "}

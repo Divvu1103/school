@@ -5,7 +5,7 @@ import banner2 from "../images/banner2.jpeg";
 const Vision = () => {
   return (
     <div>
-      <p className="text-center my-10 text-4xl text-[#3a1d83] font-extrabold ">
+      <p className="text-center my-10 text-4xl text-[#143306] font-extrabold ">
         Vision
       </p>
       <div className="flex items-center justify-between mb-10 mx-40">

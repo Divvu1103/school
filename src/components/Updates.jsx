@@ -23,13 +23,14 @@ const Updates = () => {
   };
   return (
     <div className="flex flex-col gap-y-2 mt-10">
-      <h2 className="mx-auto text-2xl font-semibold  underline underline-offset-8">
+      <h2 className="mx-auto text-2xl font-semibold text-[#143306
+]  underline underline-offset-8">
         Latest Updates
       </h2>
       <div className="  mx-2 sm:mx-12 my-4 flex  w-full sm:w-3/4 h-auto sm:h-2/4 ">
         <img
           src="https://majorsdsu.com/assets/yoga-banner-4.jpeg"
-          className="mx-2 w-2/4 h-2/4 hidden sm:inline "
+          className="mx-2 w-2/4 h-2/4 hidden sm:inline rounded-2xl "
           alt=""
         />
         <div

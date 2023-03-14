@@ -3,7 +3,7 @@ import React from "react";
 const Leadership = () => {
   return (
     <div>
-      <p className="text-center my-10 text-4xl text-[#3a1d83] font-extrabold ">
+      <p className="text-center my-10 text-4xl text-[#143306] font-extrabold ">
         Leadership
       </p>
       <div className="flex items-center justify-between mb-10 mx-40">
