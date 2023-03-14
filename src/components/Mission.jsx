@@ -2,7 +2,7 @@ import React from "react";
 
 const Mission = () => {
   return (
-    <section class="text-gray-600 body-font my-2">
+    <section class="text-gray-600 body-font my-2 bg-[#f1f1f1] py-4">
       <div class="container px-5 mx-auto flex flex-wrap">
         <div className="flex flex-col">
           <h2 className="font-semibold text-2xl underline text-[#133006]">Vision And Mission</h2> <br />

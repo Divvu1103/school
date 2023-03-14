@@ -22,7 +22,7 @@ const Updates = () => {
     },
   };
   return (
-    <div className="flex flex-col gap-y-2 mt-10">
+    <div className="flex flex-col gap-y-2 mt-10 bg-[#f1f1f1] p-2">
       <h2 className="mx-auto text-2xl font-semibold text-[#143306
 ]  underline underline-offset-8">
         Latest Updates
