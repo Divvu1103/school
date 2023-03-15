@@ -69,7 +69,7 @@ const Header = () => {
           <p className=" text-white">Navigations</p>
         </button>
         {mobileNav && (
-          <div>
+          <div className="lg:hidden">
             <Link
               to="/"
               className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2"
