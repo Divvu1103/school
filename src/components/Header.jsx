@@ -92,7 +92,7 @@ const Header = () => {
   ];
   return (
     <>
-      <div className="bg-[#072a33] mt-7 flex items-center justify-between px-14 py-5 header">
+      <div className="bg-[#072a33]  flex items-center justify-between px-14 py-5 header">
         <p className="text-white">ADDRESS: FATEHGARH, FARRUKHABAD-209749</p>
         <p className="text-white">EMAIL: sbsdaddujiaydcollege@gmail.com</p>
         <p className="flex items-center">
