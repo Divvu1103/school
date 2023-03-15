@@ -65,7 +65,7 @@ const Header = () => {
     },
     {
       title: "Departments",
-      url: "/",
+      url: "/department",
     },
     {
       title: "Facilities",
