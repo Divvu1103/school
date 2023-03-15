@@ -81,9 +81,15 @@ const Footer = () => {
               </div>
               <div className="flex flex-col ">
                 <a className="text-white text-base font-bold">
-                  NCISM Mandatory Disclouser
+                  <Link to="/ncism-mandatory-disclouser">
+                    NCISM Mandatory Disclouser
+                  </Link>
                 </a>
-                <a className="text-white text-base font-bold"> Contact Us</a>
+                <a className="text-white text-base font-bold"><Link to="/contactus">
+                   
+                  Contact Us
+                  </Link> 
+                  </a>
                 <a className="text-white text-base font-bold"> Gallery</a>
                 <a className="text-white text-base font-bold"> Apply Online</a>
                 <a className="text-white text-base font-bold">
