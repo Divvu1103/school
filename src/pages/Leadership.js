@@ -1,16 +1,21 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
+import principal from '../images/principal.jpg'
+import director from '../images/director.jpg'
+import chairman from '../images/chairman.jpg'
+
 
 const Leadership = () => {
   return (
     <div>
-      <p className="text-center my-10 text-4xl text-[#072a33] font-extrabold ">
+      <p className="text-center underline my-10 text-4xl text-[#072a33] font-extrabold ">
         Leadership
       </p>
       <div className="flex items-center justify-between mb-10 lg:mx-40 lg:flex-row flex-col mx-10">
         <img
-          src="https://majorsdsu.com/assets/img/chairman.jpg"
-          style={{ width: 400, height: 350 }}
+          src={chairman}
+          style={{ width: 400, height: 350 }} className='rounded-lg'
+          
         />
         <p className="lg:w-[600px]  mx-2">
           <p className="text-2xl font-semibold">MESSAGE FROM CHAIRMAN</p>
@@ -29,8 +34,8 @@ const Leadership = () => {
       </div>
       <div className="flex items-center justify-between mb-10 lg:mx-40 lg:flex-row flex-col mx-10">
         <img
-          src="https://majorsdsu.com/assets/img/director.jpg"
-          style={{ width: 400, height: 450 }}
+          src={director}
+          style={{ width: 400, height: 450 }} className='rounded-lg'
         />
         <p className="lg:w-[600px]  mx-2">
           <p className="text-2xl font-semibold">MESSAGE FROM DIRECTOR</p>
@@ -59,9 +64,9 @@ const Leadership = () => {
       </div>
       <div className="flex items-center justify-between mb-10 lg:mx-40 lg:flex-row flex-col mx-10">
         <img
-          src="https://majorsdsu.com/assets/img/principal.jpg"
-          style={{ width: 400, height: 450 }}
-        />
+          src={principal}
+          style={{ width: 400, height: 450 }} className='rounded-lg'
+        /> 
         <p className="lg:w-[600px]  mx-2">
           <p className="text-2xl font-semibold">
             MESSAGE FROM PRINCIPAL / MEDICAL SUPERINTENDENT

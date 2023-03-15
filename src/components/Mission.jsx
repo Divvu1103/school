@@ -1,8 +1,9 @@
 import React from "react";
-
+import banner1 from "../images/banner1.jpeg";
+import banner2 from "../images/banner2.jpeg";
 const Mission = () => {
   return (
-    <section class="text-gray-600 body-font my-2 bg-[#f1f1f1] py-4">
+    <section class="text-gray-600 body-font my-2  bg-[#f1f1f1]  py-4">
       <div class="container px-5 mx-auto flex flex-wrap">
         <div className="flex flex-col">
           <h2 className="font-semibold text-2xl underline text-[#133006]">
@@ -87,7 +88,7 @@ const Mission = () => {
           </div>
           <img
             class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12"
-            src="https://majorsdsu.com/assets/yoga-banner-4.jpeg"
+            src={banner1}
             alt="step"
           />
         </div>

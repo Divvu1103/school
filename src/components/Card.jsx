@@ -4,14 +4,14 @@ const Card = ({ name, content }) => {
   const [hover, setHover] = useState(false);
   return (
     <div
-      className="flex flex-col  sm:h-auto sm:w-[30vw] rounded-lg py-5 px-10 bg-white shadow-lg border-gray-200 border-2"
+      className="flex flex-col  sm:h-auto sm:w-[30vw] rounded-lg py-5 px-10 bg-white shadow-lg mx-3 transition duration-500 ease-in-out border-gray-200 border-2"
       style={{ backgroundColor: hover && "#072a33" }}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
       <h2
-        className="text-center text-[#072a33] text-2xl font-bold"
-        style={{ color: hover && "white" }}
+        className="text-center text-[#072a33] text-2xl font-bold transition duration-500 ease-in-out"
+        style={{ color: hover && "white " }}
       >
         {name}
       </h2>

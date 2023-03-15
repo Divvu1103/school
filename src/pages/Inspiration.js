@@ -4,7 +4,7 @@ import React from "react";
 const Inspiration = () => {
   return (
     <div>
-      <p className="text-center my-10 text-4xl text-[#072a33] font-extrabold ">
+      <p className="text-center my-10 text-4xl underline text-[#072a33] font-extrabold ">
         Fountained Inspiration
       </p>
       <div className="flex items-center justify-between mb-10 lg:mx-40 lg:flex-row flex-col mx-10">

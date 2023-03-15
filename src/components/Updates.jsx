@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Updatepoint from "./Updatepoint";
+import banner1 from "../images/banner1.jpeg";
+import banner2 from "../images/banner2.jpeg";
 
 const Updates = () => {
   const settings = {
@@ -30,7 +32,7 @@ const Updates = () => {
       </h2>
       <div className="  mx-2 sm:mx-12 my-4 flex  w-full sm:w-3/4 h-auto sm:h-2/4 ">
         <img
-          src="https://majorsdsu.com/assets/yoga-banner-4.jpeg"
+          src={banner1}
           className="mx-2 w-2/4 h-2/4 hidden sm:inline rounded-2xl "
           alt=""
         />

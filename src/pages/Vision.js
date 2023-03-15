@@ -5,7 +5,7 @@ import banner2 from "../images/banner2.jpeg";
 const Vision = () => {
   return (
     <div>
-      <p className="text-center my-10 text-4xl text-[#072a33] font-extrabold ">
+      <p className="text-center  underline my-10 text-4xl text-[#072a33] font-extrabold ">
         Vision
       </p>
       <div className="flex items-center flex-wrap sm:flex-nowrap justify-between mb-10 mx-2 sm:mx-40">
@@ -24,7 +24,7 @@ const Vision = () => {
           unturned in making itself one of the finest and the most advanced
           ayurvedic medical college of the world.
         </p>
-        <img src={banner2} style={{ width: 500, height: 400 }} />
+        <img src={banner2} className='rounded-lg' style={{ width: 500, height: 400 }} />
       </div>
     </div>
   );

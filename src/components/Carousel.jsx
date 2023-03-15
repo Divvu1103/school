@@ -9,6 +9,7 @@ import banner2 from "../images/banner2.jpeg";
 const Carousel = () => {
   var settings = {
     infinite: true,
+    fade:true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,

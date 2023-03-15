@@ -1,15 +1,17 @@
 import React from "react";
+import asy from '../images/asy.png'
+import akb from '../images/akb.jpeg'
 
 const Hero = () => {
   return (
     <div className="flex lg:flex-row my-5 items-center mid lg:justify-between lg:mx-44 flex-col mx-10">
       <div className="lg:w-[200px]">
         <img
-          src="https://majorsdsu.com/assets/img/Untitled-1.png"
+          src={asy}
           className=""
           alt=""
         />
-        <p className="bg-[#072a33] text-white mt-2 p-2">
+        <p className="bg-[#072a33] text-white mt-2 p-2  rounded-lg">
           Dr. Anar Singh Yadav (Chairman) M.Sc. (Physics), Phd., LL.B., B.Ed.
         </p>
       </div>
@@ -32,8 +34,8 @@ const Hero = () => {
         </p>
       </div>
       <div className="lg:w-[200px]">
-        <img src="https://majorsdsu.com/assets/img/principal-img.jpeg" alt="" />
-        <p className="bg-[#072a33] text-white mt-2 p-2">
+        <img src={akb} alt="" />
+        <p className="bg-[#072a33] text-white mt-2 p-2 rounded-lg">
           Dr. A.K. Batham (Principal) B.A.M.S., MD (Kayachikitsa)
         </p>
       </div>
