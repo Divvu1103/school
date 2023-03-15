@@ -19,7 +19,7 @@ const Mission = () => {
             <div class="flex relative pb-2">
               <div class="h-full w-10 absolute inset-0 flex items-center justify-center"></div>
               <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#072a33] hover:bg-[#FFF000] transition ease-in inline-flex items-center justify-center text-white relative z-10">
-                <p className="text-2xl">1</p>
+                <p className="text-2xl"><i class="fa-solid fa-arrow-right"></i></p>
               </div>
               <div class="flex-grow pl-4">
                 <h2 class="font-medium title-font text-lg text-gray-900 mb-1 tracking-wider">
@@ -30,7 +30,7 @@ const Mission = () => {
             </div>
             <div class="flex relative pb-2">
               <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#072a33] hover:bg-[#FFF000] transition ease-in inline-flex items-center justify-center text-white relative z-10">
-                <p className="text-2xl">2</p>
+                <p className="text-2xl"><i class="fa-solid fa-arrow-right"></i></p>
               </div>
               <div class="flex-grow pl-4">
                 <h2 class="font-medium title-font text-lg text-gray-900 mb-1 tracking-wider">
@@ -40,7 +40,7 @@ const Mission = () => {
             </div>
             <div class="flex relative pb-2">
               <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#072a33] hover:bg-[#FFF000] transition ease-in inline-flex items-center justify-center text-white relative z-10">
-                <p className="text-2xl">3</p>
+                <p className="text-2xl"><i class="fa-solid fa-arrow-right"></i></p>
               </div>
               <div class="flex-grow pl-4">
                 <h2 class="font-medium title-font text-lg text-gray-900 mb-1 tracking-wider">
@@ -51,7 +51,7 @@ const Mission = () => {
             </div>
             <div class="flex relative pb-2">
               <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#072a33] hover:bg-[#FFF000] transition ease-in inline-flex items-center justify-center text-white relative z-10">
-                <p className="text-2xl">4</p>
+                <p className="text-2xl"><i class="fa-solid fa-arrow-right"></i></p>
               </div>
               <div class="flex-grow pl-4">
                 <h2 class="font-medium title-font text-lg text-gray-900 mb-1 tracking-wider">
@@ -63,7 +63,7 @@ const Mission = () => {
             </div>
             <div class="flex relative pb-2">
               <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#072a33] hover:bg-[#FFF000] transition ease-in inline-flex items-center justify-center text-white relative z-10">
-                <p className="text-2xl">5</p>
+                <p className="text-2xl"><i class="fa-solid fa-arrow-right"></i></p>
               </div>
               <div class="flex-grow pl-4">
                 <h2 class="font-medium title-font text-lg text-gray-900 mb-1 tracking-wider">
@@ -74,7 +74,7 @@ const Mission = () => {
             </div>
             <div class="flex relative">
               <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#072a33]  hover:bg-[#FFF000] transition ease-in inline-flex items-center justify-center text-white relative z-10">
-                <p className="text-2xl">6</p>
+                <p className="text-2xl"><i class="fa-solid fa-arrow-right"></i></p>
               </div>
               <div class="flex-grow pl-4">
                 <h2 class="font-medium title-font text-lg text-gray-900 mb-1 tracking-wider">
