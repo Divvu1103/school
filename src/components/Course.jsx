@@ -3,7 +3,7 @@ import React from "react";
 const Course = () => {
   return (
     <div>
-      <h1 className="text-center text-[#072a33] font-bold text-3xl my-10 overflow-hidden">
+      <h1 className="text-center underline text-[#133006] font-bold text-3xl my-10 overflow-hidden">
         Top Courses
       </h1>
       <div className="flex  gap-x-3 w-full sm:w-[80vw] mx-auto">

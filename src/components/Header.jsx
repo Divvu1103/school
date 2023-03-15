@@ -66,7 +66,7 @@ const Header = () => {
           className="mobile lg:hidden"
           onClick={() => setMobileNav(!mobileNav)}
         >
-          <p className=" text-white">Navigations</p>
+          <p className=" text-white"><i class="fa-solid fa-bars"></i></p>
         </button>
         {mobileNav && (
           <div className="lg:hidden">
