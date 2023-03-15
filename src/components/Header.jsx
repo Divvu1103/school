@@ -47,7 +47,7 @@ const Header = () => {
   ];
   return (
     <>
-      <div className="bg-[#143306] mt-7 flex items-center justify-between px-14 py-5 header">
+      <div className="bg-[#072a33] mt-7 flex items-center justify-between px-14 py-5 header">
         <p className="text-white">ADDRESS: FATEHGARH, FARRUKHABAD-209749</p>
         <p className="text-white">EMAIL: sbsdaddujiaydcollege@gmail.com</p>
         <p className="flex items-center">
@@ -55,22 +55,23 @@ const Header = () => {
           <p className="text-white ml-3">TOLL FREE: 8127942568</p>
         </p>
         <button className="flex items-center border-white py-1 px-4 bg-white">
-          <FontAwesomeIcon icon={faTelegram} className="text-[#143306]" />
-          <p className="text-[#143306] ml-3 font-bold">APPLY NOW</p>
+          <FontAwesomeIcon icon={faTelegram} className="text-[#072a33]" />
+          <p className="text-[#072a33] ml-3 font-bold">APPLY NOW</p>
         </button>
-        <button
-          className="bg-[#FFFF00]  py-1 px-4 text-[#143306] font-bold"
-        >
+        <button className="bg-[#FFFF00]  py-1 px-4 text-[#072a33] font-bold">
           DOWNLOAD E-BROCHURE
+        </button>
+        <button className="mobile">
+          <p className=" text-white">Navigations</p>
         </button>
       </div>
       <nav className="bg-[#f1f1f1] border-b-2 shadow-xl px-10 py-5 flex items-center justify-between nav">
         <p className="flex items-center">
           <img src={logo} width={80} />
-          <p className="text-[#143306] text-xs w-[220px] ml-3 text-center">
+          <p className="text-[#072a33] text-xs w-[220px] ml-3 text-center">
             <p>SHRI BABU SINGH DADDU JI AYURVEDIC</p>
             <p>MEDICAL COLLEGE & HOSPITAL</p>
-            <p className="text-white bg-[#143306] py-1 mt-1">
+            <p className="text-white bg-[#072a33] py-1 mt-1">
               BAGHAR-FATEHGARH, FARRUKHABAD
             </p>
           </p>
@@ -149,10 +150,7 @@ const Header = () => {
         </ul>
         <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           News & Events
-          <FontAwesomeIcon
-            icon={faAngleDown}
-            className="text-[#FFF000] ml-2"
-          />
+          <FontAwesomeIcon icon={faAngleDown} className="text-[#FFF000] ml-2" />
         </ul>
         <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           NCISM Mandatory
@@ -162,10 +160,7 @@ const Header = () => {
         </ul>
         <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           More
-          <FontAwesomeIcon
-            icon={faAngleDown}
-            className="text-[#FFF000] ml-2"
-          />
+          <FontAwesomeIcon icon={faAngleDown} className="text-[#FFF000] ml-2" />
         </ul>
       </nav>
     </>

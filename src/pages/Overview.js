@@ -5,11 +5,11 @@ import banner2 from "../images/banner2.jpeg";
 const Overview = () => {
   return (
     <div>
-      <p className="text-center my-10 text-4xl text-[#143306] font-extrabold ">
+      <p className="text-center my-10 text-4xl text-[#072a33] font-extrabold ">
         Overview
       </p>
-      <div className="flex items-center justify-between mb-10 mx-40">
-        <p className="w-[600px]">
+      <div className="flex items-center justify-between mb-10 lg:mx-40 lg:flex-row flex-col mx-10">
+        <p className="lg:w-[600px]">
           Shri Babu Singh Daddu Ji Ayurvedic Medical College & Hospital Founded
           by Shri Babu Singh Daddu Ji Educational Trust is situated at 8th
           milestone from fatehgarh city at farrukhabad kanpur state highway the

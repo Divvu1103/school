@@ -3,7 +3,7 @@ import React from "react";
 const Courses = () => {
   return (
     <div>
-      <p className="text-center my-10 text-4xl text-[#143306] font-extrabold ">
+      <p className="text-center my-10 text-4xl text-[#072a33] font-extrabold ">
         B.A.M.S.
       </p>
       <div className="flex items-center flex-col justify-center mb-10 mx-auto w-full">

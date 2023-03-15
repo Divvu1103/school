@@ -1,15 +1,14 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import banner2 from "../images/banner2.jpeg";
 
 const Inspiration = () => {
   return (
     <div>
-      <p className="text-center my-10 text-4xl text-[#143306] font-extrabold ">
+      <p className="text-center my-10 text-4xl text-[#072a33] font-extrabold ">
         Fountained Inspiration
       </p>
-      <div className="flex items-center justify-between mb-10 mx-40">
-        <p className="w-[600px]">
+      <div className="flex items-center justify-between mb-10 lg:mx-40 lg:flex-row flex-col mx-10">
+        <p className="lg:w-[600px]">
           This college is established by the inspirations of Shri Babu Singh
           Daddu Ji a well known Education of Uttar Pradesh. His hard works and
           educational missions contributed largely towards the up gradation of
@@ -26,7 +25,10 @@ const Inspiration = () => {
           actions, endeavors and ventures. We pray to the Almighty to give us
           strength to follow his path and carry his legacy forward.
         </p>
-        <img src='https://majorsdsu.com/assets/img/logo-header.jpeg' style={{ width: 500, height: 400 }} />
+        <img
+          src="https://majorsdsu.com/assets/img/logo-header.jpeg"
+          style={{ width: 500, height: 400 }}
+        />
       </div>
     </div>
   );

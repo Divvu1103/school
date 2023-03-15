@@ -1,17 +1,18 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 
 const Leadership = () => {
   return (
     <div>
-      <p className="text-center my-10 text-4xl text-[#143306] font-extrabold ">
+      <p className="text-center my-10 text-4xl text-[#072a33] font-extrabold ">
         Leadership
       </p>
-      <div className="flex items-center justify-between mb-10 mx-40">
+      <div className="flex items-center justify-between mb-10 lg:mx-40 lg:flex-row flex-col mx-10">
         <img
           src="https://majorsdsu.com/assets/img/chairman.jpg"
           style={{ width: 400, height: 350 }}
         />
-        <p className="w-[600px]  mx-2">
+        <p className="lg:w-[600px]  mx-2">
           <p className="text-2xl font-semibold">MESSAGE FROM CHAIRMAN</p>
           Provide easy access to high quality education in management as well as
           other academic and professional fields to its students, irrespective
@@ -26,12 +27,12 @@ const Leadership = () => {
           </p>
         </p>
       </div>
-      <div className="flex items-center justify-between mb-10 mx-40">
+      <div className="flex items-center justify-between mb-10 lg:mx-40 lg:flex-row flex-col mx-10">
         <img
           src="https://majorsdsu.com/assets/img/director.jpg"
           style={{ width: 400, height: 450 }}
         />
-        <p className="w-[600px]  mx-2">
+        <p className="lg:w-[600px]  mx-2">
           <p className="text-2xl font-semibold">MESSAGE FROM DIRECTOR</p>
           Dear Students, <br /> I welcome you to Shri Babu Singh Daddu Ji
           Ayurvedic Medical College & Hospital. You are witnessing a turning
@@ -56,7 +57,7 @@ const Leadership = () => {
           <p className="text-xl font-semibold">Dr. Anita Yadav (Director)</p>
         </p>
       </div>
-      <div className="flex items-center justify-between mb-10 mx-40">
+      <div className="flex items-center justify-between mb-10 lg:mx-40 lg:flex-row flex-col mx-10">
         <img
           src="https://majorsdsu.com/assets/img/principal.jpg"
           style={{ width: 400, height: 450 }}
@@ -66,14 +67,12 @@ const Leadership = () => {
             MESSAGE FROM PRINCIPAL / MEDICAL SUPERINTENDENT
           </p>
           <p className="font-semibold">
-
-          Shri Babu Singh Daddu Ji Ayurvedic Medical College and Hospital,
-          Kanpur Road, Fatehgarh, Farrukhabad, Uttar Pradesh 
+            Shri Babu Singh Daddu Ji Ayurvedic Medical College and Hospital,
+            Kanpur Road, Fatehgarh, Farrukhabad, Uttar Pradesh
           </p>
-          is one of the
-          premier institute of Uttar Pradesh. We have grown leaps and bound
-          since our inception way back in 2015. Keeping our commitment to
-          excellent in teaching and patient care we have the best faculty and
+          is one of the premier institute of Uttar Pradesh. We have grown leaps
+          and bound since our inception way back in 2015. Keeping our commitment
+          to excellent in teaching and patient care we have the best faculty and
           infrastructure to guide the students in all their academic endower and
           co-curricular activities. As the principal, I am proud to lead our
           intuitional commitment to improve the health care of people through
