@@ -13,6 +13,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [aboutToggle, setAboutToggle] = useState(false);
   const [academicToggle, setAcademicToggle] = useState(false);
+  const [mobileNav, setMobileNav] = useState(false);
   const aboutItems = [
     {
       title: "Overview",
@@ -61,9 +62,111 @@ const Header = () => {
         <button className="bg-[#FFFF00]  py-1 px-4 text-[#072a33] font-bold">
           DOWNLOAD E-BROCHURE
         </button>
-        <button className="mobile">
+        <button
+          className="mobile lg:hidden"
+          onClick={() => setMobileNav(!mobileNav)}
+        >
           <p className=" text-white">Navigations</p>
         </button>
+        {mobileNav && (
+          <div>
+            <Link
+              to="/"
+              className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2"
+            >
+              Home
+            </Link>
+            <ul
+              className="flex flex-col"
+              onMouseEnter={() => setAboutToggle(true)}
+            >
+              <button
+                className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2"
+                onClick={() => setAboutToggle(!aboutToggle)}
+              >
+                About
+                {!aboutToggle ? (
+                  <FontAwesomeIcon
+                    icon={faAngleDown}
+                    className="text-[#FFF000] ml-2"
+                  />
+                ) : (
+                  <FontAwesomeIcon
+                    icon={faAngleUp}
+                    className="text-[#FFF000] ml-2"
+                  />
+                )}
+              </button>
+              <ul className="flex flex-col justify-center items-center bg-[#f1f1f1] gap-y-3 absolute mt-14 -ml-5 z-10">
+                {aboutToggle &&
+                  aboutItems.map((menu, index) => (
+                    <div key={index}>
+                      <li className="px-7 py-2 flex justify-center items-center">
+                        <Link to={menu.url}>{menu.title}</Link>
+                      </li>
+                      <p className="border-b-2" />
+                    </div>
+                  ))}
+              </ul>
+            </ul>
+            <ul
+              className="flex flex-col"
+              onMouseEnter={() => setAcademicToggle(true)}
+            >
+              <button
+                className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2"
+                onClick={() => setAcademicToggle(!academicToggle)}
+              >
+                Academics
+                {!academicToggle ? (
+                  <FontAwesomeIcon
+                    icon={faAngleDown}
+                    className="text-[#FFF000] ml-2"
+                  />
+                ) : (
+                  <FontAwesomeIcon
+                    icon={faAngleUp}
+                    className="text-[#FFF000] ml-2"
+                  />
+                )}
+              </button>
+              <ul className="flex flex-col justify-center items-center bg-[#f1f1f1] gap-y-3 absolute mt-14 -ml-5 z-10">
+                {academicToggle &&
+                  academicItems.map((menu, index) => (
+                    <div key={index}>
+                      <li className="px-7 py-2 flex justify-center items-center">
+                        <a href={menu.url}>{menu.title}</a>
+                      </li>
+                      <p className="border-b-2" />
+                    </div>
+                  ))}
+              </ul>
+            </ul>
+            <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+              Faculty
+            </ul>
+            <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+              News & Events
+              <FontAwesomeIcon
+                icon={faAngleDown}
+                className="text-[#FFF000] ml-2"
+              />
+            </ul>
+            <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+              NCISM Mandatory
+            </ul>
+            <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+              Contact Us
+            </ul>
+            <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+              More
+              <FontAwesomeIcon
+                icon={faAngleDown}
+                className="text-[#FFF000] ml-2"
+              />
+            </ul>
+          </div>
+        )}
       </div>
       <nav className="bg-[#f1f1f1] border-b-2 shadow-xl px-10 py-5 flex items-center justify-between nav">
         <p className="flex items-center">
