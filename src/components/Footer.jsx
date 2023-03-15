@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -62,17 +63,20 @@ const Footer = () => {
             <div className="flex flex-row mb-10 gap-x-2">
               <div className="flex flex-col">
                 <a className="text-white text-base font-bold">
-                  Overview SBSDJAMC
+                  <Link to="/overview">Overview SBSDJAMC</Link>
                 </a>
                 <a className="text-white text-base font-bold">
                   {" "}
-                  Mission & Vision
+                  <Link to="/vision">Mission & Vision</Link>
                 </a>
                 <a className="text-white text-base font-bold">
                   {" "}
-                  Fountained Inspiration
+                  <Link to="/inspiration">Fountained Inspiration</Link>
                 </a>
-                <a className="text-white text-base font-bold"> Courses</a>
+                <a className="text-white text-base font-bold">
+                  {" "}
+                  <Link to="/courses">Courses</Link>
+                </a>
                 <a className="text-white text-base font-bold"> Departments</a>
               </div>
               <div className="flex flex-col ">

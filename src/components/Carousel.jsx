@@ -44,8 +44,8 @@ const Carousel = () => {
   return (
     <div classNameName="px-10 mt-10">
       <Slider {...settings}>
-        <img src={banner1} className="img" />
-        <img src={banner2} className="img" />
+        <img src={banner1} className="img h-[65vh] " />
+        <img src={banner2} className="img h-[65vh] " />
       </Slider>
     </div>
   );

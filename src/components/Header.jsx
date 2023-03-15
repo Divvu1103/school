@@ -66,10 +66,10 @@ const Header = () => {
           className="mobile lg:hidden"
           onClick={() => setMobileNav(!mobileNav)}
         >
-          <p className=" text-white"><i class="fa-solid fa-bars"></i></p>
+          <p className=" text-white text-xl"><i class="fa-solid fa-bars"></i></p>
         </button>
         {mobileNav && (
-          <div className="lg:hidden">
+          <div className="lg:hidden transition ease-in">
             <Link
               to="/"
               className="font-semibold text-white flex items-center text-lg "
