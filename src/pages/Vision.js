@@ -8,8 +8,8 @@ const Vision = () => {
       <p className="text-center my-10 text-4xl text-[#072a33] font-extrabold ">
         Vision
       </p>
-      <div className="flex items-center justify-between mb-10 mx-40">
-        <p className="w-[600px]">
+      <div className="flex items-center flex-wrap sm:flex-nowrap justify-between mb-10 mx-2 sm:mx-40">
+        <p className="w-full sm:w-[60vw]">
           The chief objective if this Hospital and Institute is to provide
           adequate care. Treatment and education to its patients and student.
           Its principal product is medical surgical and nursing service to the

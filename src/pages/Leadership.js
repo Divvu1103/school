@@ -62,7 +62,7 @@ const Leadership = () => {
           src="https://majorsdsu.com/assets/img/principal.jpg"
           style={{ width: 400, height: 450 }}
         />
-        <p className="w-[600px]  mx-2">
+        <p className="lg:w-[600px]  mx-2">
           <p className="text-2xl font-semibold">
             MESSAGE FROM PRINCIPAL / MEDICAL SUPERINTENDENT
           </p>
