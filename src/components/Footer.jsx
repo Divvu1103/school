@@ -49,7 +49,7 @@ const Footer = () => {
               <li>
                 <div className="text-white ">
                   <i class="fa-regular fa-envelope text-2xl text-[#fff000]"></i>
-                  <div className="font-bold text-base sm:text-xl -ml-10">
+                  <div className="font-bold text-base sm:text-base">
                     sbsdaddujiaydcollege@gmail.com
                   </div>{" "}
                 </div>
