@@ -44,7 +44,7 @@ const Facilities = () => {
       <h1 className="text-center underline text-[#072a33] font-bold text-3xl my-10 overflow-hidden">
         Our Facilities
       </h1>
-      <Slider {...settings} className="mx-20">
+      <Slider {...settings} className="lg:mx-20 mx-5">
         <Card
           name={"Games"}
           content={

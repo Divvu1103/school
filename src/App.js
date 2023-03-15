@@ -17,10 +17,12 @@ import Inspiration from "./pages/Inspiration";
 import Leadership from "./pages/Leadership";
 import Courses from "./pages/Courses";
 import Faculty from "./pages/Faculty";
-import NCSIM from './pages/NCSIM';
+import NCSIM from "./pages/NCSIM";
 import Course from "./components/Course";
 import ContactUs from "./pages/ContactUs";
 import whatsapp from "../src/images/whatsapp.gif";
+import Gallery from "./pages/Gallery";
+import Apply from "./pages/Apply";
 
 const Home = () => {
   return (
@@ -48,9 +50,20 @@ const App = () => {
         <Route path="/faculty" element={<Faculty />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/ncism-mandatory-disclouser" element={<NCSIM />} />
-        <Route path="/yoga-for-humanity-azadi-ka-amrit-mahotsav" element={<Yoga/>} />
-        <Route path="/azadi-ka-amrit-mahotsav-awareness-programme" element={<Azadi/>} />
-        <Route path="/best-ayurveda-college-in-uttar-pradesh" element={<Ayurvedi/>} />
+        <Route
+          path="/yoga-for-humanity-azadi-ka-amrit-mahotsav"
+          element={<Yoga />}
+        />
+        <Route
+          path="/azadi-ka-amrit-mahotsav-awareness-programme"
+          element={<Azadi />}
+        />
+        <Route
+          path="/best-ayurveda-college-in-uttar-pradesh"
+          element={<Ayurvedi />}
+        />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/apply" element={<Apply />} />
       </Routes>
       {/* <a href="www.webwhatsapp.com" target="_blank">
         <img
