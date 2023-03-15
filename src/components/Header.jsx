@@ -72,7 +72,7 @@ const Header = () => {
           <div className="lg:hidden">
             <Link
               to="/"
-              className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2"
+              className="font-semibold text-white flex items-center text-lg "
             >
               Home
             </Link>
@@ -81,7 +81,7 @@ const Header = () => {
               onMouseEnter={() => setAboutToggle(true)}
             >
               <button
-                className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2"
+                className="font-semibold text-white flex items-center text-lg "
                 onClick={() => setAboutToggle(!aboutToggle)}
               >
                 About
@@ -114,7 +114,7 @@ const Header = () => {
               onMouseEnter={() => setAcademicToggle(true)}
             >
               <button
-                className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2"
+                className="font-semibold text-white flex items-center text-lg "
                 onClick={() => setAcademicToggle(!academicToggle)}
               >
                 Academics
@@ -142,23 +142,23 @@ const Header = () => {
                   ))}
               </ul>
             </ul>
-            <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+            <ul className="font-semibold text-white flex items-center text-lg ">
               Faculty
             </ul>
-            <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+            <ul className="font-semibold text-white flex items-center text-lg ">
               News & Events
               <FontAwesomeIcon
                 icon={faAngleDown}
                 className="text-[#FFF000] ml-2"
               />
             </ul>
-            <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+            <ul className="font-semibold text-white flex items-center text-lg ">
               NCISM Mandatory
             </ul>
-            <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+            <ul className="font-semibold text-white flex items-center text-lg ">
               Contact Us
             </ul>
-            <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
+            <ul className="font-semibold text-white flex items-center text-lg ">
               More
               <FontAwesomeIcon
                 icon={faAngleDown}
