@@ -3,6 +3,7 @@ import React from "react";
 import Carousel from "./components/Carousel";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Department from "./pages/Department";
 import Hero from "./components/Hero";
 import Mission from "./components/Mission";
 import Azadi from "./pages/Azadi";
@@ -16,6 +17,7 @@ import Vision from "./pages/Vision";
 import Inspiration from "./pages/Inspiration";
 import Leadership from "./pages/Leadership";
 import Courses from "./pages/Courses";
+import FacilitiesOffered from "./pages/FacilitiesOffered";
 import Faculty from "./pages/Faculty";
 import NCSIM from "./pages/NCSIM";
 import Course from "./components/Course";
@@ -50,6 +52,8 @@ const App = () => {
         <Route path="/faculty" element={<Faculty />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/ncism-mandatory-disclouser" element={<NCSIM />} />
+        <Route path="/facilities" element={<FacilitiesOffered />} />
+        <Route path="/department" element={<Department />} />
         <Route
           path="/yoga-for-humanity-azadi-ka-amrit-mahotsav"
           element={<Yoga />}

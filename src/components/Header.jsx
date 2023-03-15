@@ -69,7 +69,7 @@ const Header = () => {
     },
     {
       title: "Facilities",
-      url: "/",
+      url: "/facilities",
     },
   ];
   const moreItems = [
@@ -92,7 +92,7 @@ const Header = () => {
   ];
   return (
     <>
-      <div className="bg-[#072a33]  flex items-center justify-between px-14 py-5 header">
+      <div className="bg-[#072a33] mt-7 flex items-center justify-between px-14 py-5 header">
         <p className="text-white">ADDRESS: FATEHGARH, FARRUKHABAD-209749</p>
         <p className="text-white">EMAIL: sbsdaddujiaydcollege@gmail.com</p>
         <p className="flex items-center">
@@ -371,7 +371,7 @@ const Header = () => {
           </div>
         )}
       </div>
-      <nav className="bg-[#f1f1f1] border-b-2 shadow-xl px-10 py-5 flex items-center justify-between nav">
+      <nav className="bg-[#f1f1f1] border-b-2 mt-7 shadow-xl px-10 py-5 flex items-center justify-between nav">
         <p className="flex items-center">
           <img src={logo} width={80} />
           <p className="text-[#072a33] text-xs w-[220px] ml-3 text-center">

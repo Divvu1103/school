@@ -3,11 +3,11 @@ import React from "react";
 const Courses = () => {
   return (
     <div>
-      <p className="text-center my-10 text-4xl underline text-[#072a33] font-extrabold ">
+      <p className="text-center my-10 text-4xl underline overflow-hidden text-[#072a33] font-extrabold ">
         B.A.M.S.
       </p>
-      <div className="flex items-center flex-col justify-center mb-10 mx-auto w-full">
-        <p className="w-11/12 mx-auto sm :mx-0 lg:w-[600px]">
+      <div className="flex items-center flex-col justify-center mb-10 mx-auto w-full ">
+        <p className="w-11/12 mx-auto sm :mx-0 lg:w-[600px] ">
           Bachelor of Ayurveda Medical & Surgery (BAMS) is a five-year
           six-months undergraduate program that offers an integrated course that
           covers a wide range of subjects of traditional Ayurveda and modern
@@ -24,9 +24,9 @@ const Courses = () => {
           minimum side-effects as these medicines are prepared from natural
           herbs, vegetables, and plants.
         </p>
-        <p className="text-2xl font-semibold">BAMS Course Highlights</p>
+        <p className="text-2xl font-semibold my-3">BAMS Course Highlights</p>
         <div
-          className="flex flex-row flex-wrap gap-y-3 justify-center w-11/12 sm:w-1/2
+          className="flex flex-row flex-wrap gap-y-3 justify-center w-11/12 sm:w-1/2 
          items-center"
         >
           <p className="text-1xl font-semibold basis-1/2">Levels</p>
@@ -61,11 +61,11 @@ const Courses = () => {
           <p className="text-1xl font-semibold basis-1/2">Average Course Fee</p>
           <p className="text-1xl  basis-1/2">2,52,900 Per Anum</p>
         </div>
-        <div className="w-11/12 mx-auto sm:w-2/3 my-2">
-          <p className="text-2xl font-semibold">
+        <div className="w-11/12 mx-auto sm:w-2/3 my-2 leading-3">
+          <p className="text-2xl font-semibold my-3">
             Bachelor of Ayurveda Medical and Surgery (BAMS) Eligibility Criteria
           </p>
-          <p className="text-1xl  basis-1/2 leading-loose">
+          <p className="text-1xl  basis-1/2 leading-10">
             {" "}
             <i class="fa-sharp fa-solid fa-arrow-right"></i>
             Minimum Educational Qualification Required: 10+2 or equivalent
@@ -78,7 +78,7 @@ const Courses = () => {
             Age Limit: As per Government norms.
           </p>
           <p className="text-2xl font-semibold">BAMS Admission Process</p>
-          <p className="text-1xl  basis-1/2 leading-loose">
+          <p className="text-1xl  basis-1/2 leading-10">
             {" "}
             <i class="fa-sharp fa-solid fa-arrow-right"></i>
             BAMS admissions in India are done on the basis of entrance exams.{" "}

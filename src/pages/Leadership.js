@@ -17,17 +17,17 @@ const Leadership = () => {
           style={{ width: 400, height: 350 }} className='rounded-lg'
           
         />
-        <p className="lg:w-[600px]  mx-2">
-          <p className="text-2xl font-semibold">MESSAGE FROM CHAIRMAN</p>
+        <p className="lg:w-[600px]  mx-5 my-3">
+          <p className="text-2xl font-semibold my-3">MESSAGE FROM CHAIRMAN</p>
           Provide easy access to high quality education in management as well as
           other academic and professional fields to its students, irrespective
           of their caste, creed age, gender, region or district at an affordable
           cost. To offer a conducive environment for pursuing research and
           vocational studies with market-driven orientation.
-          <p className="text-xl font-semibold">
+          <p className="text-xl font-semibold my-3">
             Dr. Anar Singh Yadav (Chairman)
           </p>
-          <p className="text-xl font-semibold">
+          <p className="text-xl font-semibold my-3">
             M.Sc. (Physics), Phd., LL.B., B.Ed.
           </p>
         </p>
@@ -37,8 +37,8 @@ const Leadership = () => {
           src={director}
           style={{ width: 400, height: 450 }} className='rounded-lg'
         />
-        <p className="lg:w-[600px]  mx-2">
-          <p className="text-2xl font-semibold">MESSAGE FROM DIRECTOR</p>
+        <p className="lg:w-[600px]  mx-5">
+          <p className="text-2xl font-semibold my-3">MESSAGE FROM DIRECTOR</p>
           Dear Students, <br /> I welcome you to Shri Babu Singh Daddu Ji
           Ayurvedic Medical College & Hospital. You are witnessing a turning
           point in your career after completing initial education in schools and
@@ -59,7 +59,7 @@ const Leadership = () => {
           recreation will provide the ideal environment for your grooming. Our
           mission is to ensure all round development of our students and extend
           job-oriented practical education for complete development.
-          <p className="text-xl font-semibold">Dr. Anita Yadav (Director)</p>
+          <p className="text-xl font-semibold my-3">Dr. Anita Yadav (Director)</p>
         </p>
       </div>
       <div className="flex items-center justify-between mb-10 lg:mx-40 lg:flex-row flex-col mx-10">
@@ -67,11 +67,11 @@ const Leadership = () => {
           src={principal}
           style={{ width: 400, height: 450 }} className='rounded-lg'
         /> 
-        <p className="lg:w-[600px]  mx-2">
-          <p className="text-2xl font-semibold">
+        <p className="lg:w-[600px]  mx-5">
+          <p className="text-2xl font-semibold my-3">
             MESSAGE FROM PRINCIPAL / MEDICAL SUPERINTENDENT
           </p>
-          <p className="font-semibold">
+          <p className="font-semibold my-3">
             Shri Babu Singh Daddu Ji Ayurvedic Medical College and Hospital,
             Kanpur Road, Fatehgarh, Farrukhabad, Uttar Pradesh
           </p>
@@ -85,8 +85,8 @@ const Leadership = () => {
           fully committed to provide the best medical education and health care
           of the highest standard through this institution. With warm regards
           and best wishes.
-          <p className="text-xl font-semibold">Dr. A.K. Batham</p>
-          <p className="text-xl font-semibold">B.A.M.S., MD (Kayachikitsa)</p>
+          <p className="text-xl font-semibold my-3">Dr. A.K. Batham</p>
+          <p className="text-xl font-semibold my-3">B.A.M.S., MD (Kayachikitsa)</p>
         </p>
       </div>
     </div>
