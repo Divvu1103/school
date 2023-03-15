@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTty,
@@ -14,6 +14,16 @@ const Header = () => {
   const [aboutToggle, setAboutToggle] = useState(false);
   const [academicToggle, setAcademicToggle] = useState(false);
   const [mobileNav, setMobileNav] = useState(false);
+  const formRef = useRef(null);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleOpenModal = () => setIsOpen(true);
+  const handleCloseModal = () => setIsOpen(false);
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // handle form submission
+  };
   const aboutItems = [
     {
       title: "Overview",
@@ -57,16 +67,121 @@ const Header = () => {
         </p>
         <button className="flex items-center border-white py-1 px-4 bg-white">
           <FontAwesomeIcon icon={faTelegram} className="text-[#072a33]" />
-          <p className="text-[#072a33] ml-3 font-bold">APPLY NOW</p>
+          <p
+            className="text-[#072a33] ml-3 font-bold"
+            onClick={handleOpenModal}
+          >
+            APPLY NOW
+          </p>
         </button>
         <button className="bg-[#FFFF00]  py-1 px-4 text-[#072a33] font-bold">
           DOWNLOAD E-BROCHURE
         </button>
+        {isOpen && (
+          <div className="fixed inset-0 flex items-center z-50 justify-center bg-gray-500 bg-opacity-75">
+            <div className="bg-white rounded-md shadow-lg p-4 w-96">
+              <div className="flex justify-between items-center">
+                <h2 className="text-lg font-bold mb-4">Apply Now</h2>{" "}
+                <button
+                  className="px-4 py-2 rounded-3xl bg-red-600 text-white"
+                  onClick={handleCloseModal}
+                >
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <form ref={formRef} onSubmit={handleSubmit}>
+                <div className="mb-4">
+                  <label
+                    className="block text-gray-700 font-bold mb-2"
+                    htmlFor="username"
+                  >
+                    Name
+                  </label>
+                  <input
+                    className="border rounded-md px-3 py-2 w-full"
+                    id="username"
+                    name="username"
+                    type="text"
+                    required
+                  />
+                </div>
+                <div className="mb-4">
+                  <label
+                    className="block text-gray-700 font-bold mb-2"
+                    htmlFor="username"
+                  >
+                    E-mail
+                  </label>
+                  <input
+                    className="border rounded-md px-3 py-2 w-full"
+                    id="username"
+                    name="username"
+                    type="text"
+                    required
+                  />
+                </div>
+                <div className="mb-4">
+                  <label
+                    className="block text-gray-700 font-bold mb-2"
+                    htmlFor="username"
+                  >
+                    Mobile Number
+                  </label>
+                  <input
+                    className="border rounded-md px-3 py-2 w-full"
+                    id="username"
+                    name="username"
+                    type="text"
+                    required
+                  />
+                </div>
+                <div className="mb-4">
+                  <label
+                    className="block text-gray-700 font-bold mb-2"
+                    htmlFor="username"
+                  >
+                    Address
+                  </label>
+                  <input
+                    className="border rounded-md px-3 py-2 w-full"
+                    id="username"
+                    name="username"
+                    type="text"
+                    required
+                  />
+                </div>
+                <div className="mb-4">
+                  <label
+                    className="block text-gray-700 font-bold mb-2"
+                    htmlFor="password"
+                  >
+                    Password
+                  </label>
+                  <input
+                    className="border rounded-md px-3 py-2 w-full"
+                    id="password"
+                    name="password"
+                    type="password"
+                    required
+                  />
+                </div>
+                <button
+                  className="px-4 py-2 rounded-md bg-[#133006] text-white"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        )}
         <button
           className="mobile lg:hidden"
           onClick={() => setMobileNav(!mobileNav)}
         >
-          <p className=" text-white text-xl"><i class="fa-solid fa-bars"></i></p>
+          <p className=" text-white text-xl">
+            <i class="fa-solid fa-bars"></i>
+          </p>
         </button>
         {mobileNav && (
           <div className="lg:hidden transition ease-in">
