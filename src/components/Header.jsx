@@ -13,6 +13,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [aboutToggle, setAboutToggle] = useState(false);
   const [academicToggle, setAcademicToggle] = useState(false);
+  const [newsToggle, setNewsToggle] = useState(false);
   const [mobileNav, setMobileNav] = useState(false);
   const formRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
@@ -41,6 +42,21 @@ const Header = () => {
       title: "Leadership",
       url: "/leadership",
     },
+  ];
+  const newsItems = [
+    {
+      title: "YOGA FOR HUMANITY #Azadi Ka Amrit Mahotsav",
+      url: "/yoga-for-humanity-azadi-ka-amrit-mahotsav",
+    },
+    {
+      title: "Best Ayurveda College in Uttar Pradesh",
+      url: "/best-ayurveda-college-in-uttar-pradesh",
+    },
+    {
+      title: "AZADI KA AMRIT MAHOTSAV- Awareness programme",
+      url: "/azadi-ka-amrit-mahotsav-awareness-programme",
+    },
+    
   ];
   const academicItems = [
     {
@@ -191,6 +207,7 @@ const Header = () => {
             >
               Home
             </Link>
+           
             <ul
               className="flex flex-col"
               onMouseEnter={() => setAboutToggle(true)}
@@ -257,16 +274,37 @@ const Header = () => {
                   ))}
               </ul>
             </ul>
-            <ul className="font-semibold text-white flex items-center text-lg ">
+            <Link
+              to="/faculty"
+              className="font-semibold text-white flex items-center text-lg "
+            >
               Faculty
-            </ul>
+            </Link>
             <ul className="font-semibold text-white flex items-center text-lg ">
               News & Events
-              <FontAwesomeIcon
-                icon={faAngleDown}
-                className="text-[#FFF000] ml-2"
-              />
+              {!newsToggle ? (
+                  <FontAwesomeIcon
+                    icon={faAngleDown}
+                    className="text-[#FFF000] ml-2"
+                  />
+                ) : (
+                  <FontAwesomeIcon
+                    icon={faAngleUp}
+                    className="text-[#FFF000] ml-2"
+                  />
+                )}
             </ul>
+            <ul className="flex flex-col justify-center items-center bg-[#f1f1f1] gap-y-3 absolute mt-14 -ml-5 z-10">
+                {newsToggle &&
+                  newsItems.map((menu, index) => (
+                    <div key={index}>
+                      <li className="px-7 py-2 flex justify-center items-center">
+                        <Link to={menu.url}>{menu.title}</Link>
+                      </li>
+                      <p className="border-b-2" />
+                    </div>
+                  ))}
+              </ul>
             <ul className="font-semibold text-white flex items-center text-lg ">
               NCISM Mandatory
             </ul>
@@ -363,19 +401,56 @@ const Header = () => {
               ))}
           </ul>
         </ul>
+        <Link
+              to="/faculty"
+              className="font-semibold text-[#7a7a7a] flex items-center text-lg "
+            >
+              Faculty
+            </Link>
         <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
-          Faculty
+         
+        <button
+            className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2"
+            onClick={() => setNewsToggle(!newsToggle)}
+          >
+            News and Events
+            {!newsToggle ? (
+              <FontAwesomeIcon
+                icon={faAngleDown}
+                className="text-[#FFF000] ml-2"
+              />
+            ) : (
+              <FontAwesomeIcon
+                icon={faAngleUp}
+                className="text-[#FFF000] ml-2"
+              />
+            )}
+          </button>
+          <ul className="flex flex-col justify-center items-center bg-[#f1f1f1] gap-y-3 absolute mt-96 w-48 -ml-5 z-10">
+            {newsToggle &&
+              newsItems.map((menu, index) => (
+                <div key={index}>
+                  <li className="px-2 py-2 flex justify-center items-center">
+                    <a href={menu.url}>{menu.title}</a>
+                  </li>
+                  <p className="border-b-2" />
+                </div>
+              ))}
+          </ul>
         </ul>
-        <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
-          News & Events
-          <FontAwesomeIcon icon={faAngleDown} className="text-[#FFF000] ml-2" />
-        </ul>
-        <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
-          NCISM Mandatory
-        </ul>
-        <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
-          Contact Us
-        </ul>
+       
+        <Link
+              to="/ncism-mandatory-disclouser"
+              className="font-semibold text-[#7a7a7a] flex items-center text-lg "
+            >
+              NCISM Mandatory
+            </Link>
+        <Link
+              to="/contactus"
+              className="font-semibold text-[#7a7a7a] flex items-center text-lg "
+            >
+              Contact Us
+            </Link>
         <ul className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
           More
           <FontAwesomeIcon icon={faAngleDown} className="text-[#FFF000] ml-2" />
