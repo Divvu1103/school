@@ -75,7 +75,7 @@ const Header = () => {
   const moreItems = [
     {
       title: "HMS Login",
-      url: "/hms",
+      url: "https://majorsdsu.com/hms/login.html",
     },
     {
       title: "Gallery",
