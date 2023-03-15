@@ -323,12 +323,18 @@ const Header = () => {
                   </div>
                 ))}
             </ul>
-            <ul className="font-semibold text-white flex items-center text-lg ">
+            <Link
+              to="ncism-mandatory-disclouser"
+              className="font-semibold text-white flex items-center text-lg "
+            >
               NCISM Mandatory
-            </ul>
-            <ul className="font-semibold text-white flex items-center text-lg ">
+            </Link>
+            <Link
+              to="/contactus"
+              className="font-semibold text-white flex items-center text-lg "
+            >
               Contact Us
-            </ul>
+            </Link>
             <ul
               className="flex flex-col"
               onMouseEnter={() => setMoreToggle(true)}
