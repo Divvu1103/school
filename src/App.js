@@ -69,17 +69,24 @@ const App = () => {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/apply" element={<Apply />} />
       </Routes>
-      {/* <a href="www.webwhatsapp.com" target="_blank">
-        <img
+      <a href="https://wa.me/919554964674" target="_blank">
+        <p className='p-3 text-4xl rounded-full text-white bg-[#4DC247] fixed bottom-4 right-4'>
+
+      <i class="fa-brands fa-whatsapp"></i>
+        </p>
+        {/* <img
           src={whatsapp}
+          className='p-5 rounded-full bg-[#4DC247]'
           style={{
-            position: "absolute",
+            position: "fixed",
             width: 100,
             right: 30,
+            bottom:20,
+            zIndex:100,
             marginTop: 300,
           }}
-        />
-      </a> */}
+        /> */}
+      </a>
 
       <Footer />
     </BrowserRouter>
