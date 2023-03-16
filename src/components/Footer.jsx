@@ -130,7 +130,7 @@ const Footer = () => {
         <p className="mx-auto text-white text-sm sm:text-base text-center py-5 ">
           {" "}
           Copyright © 2023 SBSDJ Ayurvedic Medical College & Hospital. All
-          Rights Reserved. Powered By SOM SOFTWARE INFOTECH
+          Rights Reserved. Powered By NTECHZY
         </p>
       </div>
     </footer>
