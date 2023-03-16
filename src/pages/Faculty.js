@@ -62,6 +62,8 @@ const Faculty = () => {
           name={"Dr Ambrish Kumar Batham"}
           src={fa1}
           des={"Principal"}
+          exp={'12'}
+          mail={"drambrishayush78@gmail.com"}
         />
         <FacultyCard name={"Dr. Sudharani S.J."} src={fa2} des={"PROFESSOR"} />
         <FacultyCard name={"Dr. Ravi Madiwalar"} src={fa3} des={"PROFESSOR"} />
