@@ -65,225 +65,275 @@ const Faculty = () => {
           exp={'12'}
           mail={"drambrishayush78@gmail.com"}
         />
-        <FacultyCard name={"Dr. Sudharani S.J."} src={fa2} des={"PROFESSOR"} />
-        <FacultyCard name={"Dr. Ravi Madiwalar"} src={fa3} des={"PROFESSOR"} />
+        <FacultyCard name={"Dr. Sudharani S.J."} src={fa2} des={"PROFESSOR"}  exp={'12'}
+          mail={"drsudharanisj@gmail.com"} />
+        <FacultyCard name={"Dr. Ravi Madiwalar"} src={fa3} des={"PROFESSOR"} exp={'13'}
+          mail={"dr.ravi.madiwalar@gmail.com"}  />
         <FacultyCard
           name={"Dr Manas Ranjan Debata"}
           src={fa4}
           des={"PROFESSOR"}
+          exp={'13'}
+       mail={"debatamanas00@gmail.com"}  
         />
         <FacultyCard
+          mail={"naveenbv1234@gmail.com"} exp={'14'}
           name={"Dr Naveen Kumar B.V."}
           src={fa5}
+          
           des={"PROFESSOR"}
-        />
+          />
         <FacultyCard
+          mail={"drrakeshbhadauria@gmail.com"} exp={'22'}
           name={"Dr. Rakesh Kumar Singh Bhadauria "}
           src={fa6}
           des={"PROFESSOR"}
-        />
+          />
         <FacultyCard
+          mail={"drpkmishra5@gmail.com"} exp={'36'}
           name={"Dr. Pradeep Kumar Mishra"}
           src={fa7}
           des={"PROFESSOR"}
-        />
+          />
         <FacultyCard
+          mail={"akkarshivastsava@gmail.com"} exp={'27'}
           name={"Dr. Vijay Kumar Shrivastav"}
           src={fa8}
           des={"PROFESSOR"}
-        />
+          />
         <FacultyCard
+          mail={"skmishra752@gmail.com"} exp={'16'}
           name={"Dr Santosh Kumar Mishra"}
           src={fa9}
           des={"PROFESSOR"}
-        />
+          />
         <FacultyCard
+          mail={"drnarendrasengar@gmail.com"} exp={'36'}
           name={"Dr. Narendra Singh Sengar"}
           src={fa10}
           des={"PROFESSOR"}
-        />
+          />
         <FacultyCard
+          mail={"namrataharichandan25@gmail.com"} exp={'13'}
           name={"Dr. Namrata Harichandan"}
           src={fa11}
           des={"PROFESSOR"}
-        />
+          />
         <FacultyCard
+          mail={"drvinayak.kinnal@gmail.com"} exp={'8'}
           name={"Dr. Vinayak S. Kinnal"}
           src={fa12}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"singh.ratan21685@gmail.com"} exp={'5'}
           name={"Dr. Ratan Singh"}
           src={fa13}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"drreetivinayak@gmail.com"} exp={'7'}
           name={"Dr Reeti Yadav"}
           src={fa14}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"draniruddhasinghyadav77@gmail.com"} exp={'5'}
           name={"Dr. Aniruddha Singh Yadav"}
           src={fa15}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"dr.punam26@gmail.com"} exp={'7'}
           name={"Dr. Poonam Patel"}
           src={fa16}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"dr.deepak34@gmail.com"} exp={'6'}
           name={"Dr. Deepak Singh"}
           src={fa17}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"dr.kaithwas.swatie@gmail.com"} exp={'5'}
           name={"Dr. Swatie Kaithwas"}
           src={fa18}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"dramitkumar86@gmail.com"} exp={'5'}
           name={"Dr. Amit Kumar"}
           src={fa19}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"dramitkumar86@gmail.com"} exp={'5'}
           name={"Dr. Anupama B"}
           src={fa20}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"drshridharlakkundiayu@gmail.com"} exp={'9'}
           name={"Dr Shridhar S Lakkundi"}
           src={fa21}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"vinaykumarhk@gmail.com"} exp={'6'}
           name={"Dr. Vinay Kumar H.K."}
           src={fa22}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"drsunandatrivedi@gmail.com"} exp={'4'}
           name={"Dr. Sunanda Trivedi"}
           src={fa23}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"seema.ipdc@gmail.com"} exp={'3'}
           name={"Dr. Rohit Singh"}
           src={fa24}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"drrenusingh333@gmail.com"} exp={'1'}
           name={"Dr. Renu Singh"}
           src={fa25}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"arpitha.war@gmail.com"} exp={'1'}
           name={"Dr. Arpitha A Warrier"}
           src={fa26}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"draradhya@rediffmail.com"} exp={'4'}
           name={"Dr. Aradhya Dev Mishra"}
           src={fa27}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"kundan.mishra2611@gmail.com"} exp={'3'}
           name={"Dr. Kundan Kumar Mishra"}
           src={fa28}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"drawadhesh16@gmail.com"} exp={'3'}
           name={"Dr. Awadhesh Kumar"}
           src={fa29}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"drjijo24@gmail.com"} exp={'1'}
           name={"Dr. Jijo Jacob"}
           src={fa30}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"piyushcod024@gmail.com"} exp={'2'}
           name={"Dr. Piyush Gupta"}
           src={fa31}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"rimpisingh10@gmail.com"} exp={'1'}
           name={"Dr. Rimpi Singh"}
           src={fa32}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"mkbbaghel1947@gmail.com"} exp={'4'}
           name={"Dr. Mohit Baghel"}
           src={fa33}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"surjeetkumar179@gmail.com"} exp={'1'}
           name={"Dr. Surjeet Kumar"}
           src={fa34}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"kirtinakhasa@gmail.com"} exp={'3'}
           name={"Dr. Keerti Yadav"}
           src={fa35}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"pushpatyadav.91@gmail.com"} exp={'1'}
           name={"Dr. Pushpa T"}
           src={fa36}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"mahemitra@gmail.com"} exp={'4'}
           name={"Dr. Mahema Mishra"}
           src={fa37}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
-        <FacultyCard name={"Mr. Vaseem Khan"} src={fa38} des={"Yoga Teacher"} />
+          />
+        <FacultyCard 
+          mail={"vaseemkhan@gmail.com"} exp={'4'}
+          name={"Mr. Vaseem Khan"} src={fa38} des={"Yoga Teacher"} />
         <FacultyCard
+          mail={"mithilesh007.pathak@gmail.com"} exp={'4'}
           name={"Dr. Mithilesh Pathak"}
           src={fa39}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"eish26@gmail.com"} exp={'3'}
           name={"Dr. Eishan Jain"}
           src={fa40}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"ashish.himself01@gmail.com"} exp={'3'}
           name={"Dr. Ashish Kumar Dubey"}
           src={fa41}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"dr.rpyadav91@gmail.com"} exp={'1'}
           name={"Dr. Raghvendra Pratap Yadav"}
           src={fa42}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"evlinjose89@gmail.com"} exp={'1'}
           name={"Dr. Evlin Jose"}
           src={fa43}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"amitachauhan227@gmail.com"} exp={'3'}
           name={"Dr. Amita Chauhan"}
           src={fa44}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"mahan.suneel72@gmail.com"} exp={'1'}
           name={"Dr. Suneel Kumar Rajpoot"}
           src={fa45}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"drkamleshkumar@gmail.com"} exp={'4'}
           name={"Dr. Kamlesh Kumar"}
           src={fa46}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"suvarnaramya44@gmail.com"} exp={'1'}
           name={"Dr. Ramya"}
           src={fa47}
           des={"ASSOCIATE PROFESSOR/READER"}
-        />
+          />
         <FacultyCard
+          mail={"dramarnathsingh25@gmail.com"} exp={'1'}
           name={"Dr.Amarnath"}
           src={fa48}
           des={"ASSOCIATE PROFESSOR/READER"}
