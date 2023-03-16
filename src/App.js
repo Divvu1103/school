@@ -25,7 +25,7 @@ import Course from "./components/Course";
 import ContactUs from "./pages/ContactUs";
 import Gallery from "./pages/Gallery";
 import Apply from "./pages/Apply";
-import SingleFaculty from "./pages/SingleFaculty";
+import FacultyDetail from "./pages/FacultyDetail";
 
 const Home = () => {
   return (
@@ -70,7 +70,6 @@ const App = () => {
         />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/apply" element={<Apply />} />
-        <Route path="/faculty/:id" element={<SingleFaculty />} />
       </Routes>
       <a href="https://wa.me/919554964674" target="_blank">
         <p className=" px-3 py-2 text-4xl rounded-full text-white bg-[#4DC247] fixed bottom-4 right-4">
