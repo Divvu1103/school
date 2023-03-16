@@ -41,16 +41,18 @@ const Footer = () => {
                 </div>
               </li>
               <li>
-                <a className="text-white ">+91-+91-9554964674,+91-8127942568</a>
+                <a className="text-white " href="tel:+919554964674">+91-+91-9554964674,+91-8127942568</a>
               </li>
               <li>
-                <a className="text-white ">+91-+91-9554964674,+91-8127942568</a>
+                <a className="text-white " href="tel:+919554964674">+91-+91-9554964674,+91-8127942568</a>
               </li>
               <li>
                 <div className="text-white ">
                   <i class="fa-regular fa-envelope text-2xl text-[#fff000]"></i>
                   <div className="font-bold text-base sm:text-base">
-                    sbsdaddujiaydcollege@gmail.com
+                  <a href="mailto:sbsdaddujiaydcollege@gmail.com">
+            sbsdaddujiaydcollege@gmail.com
+          </a>
                   </div>{" "}
                 </div>
               </li>
