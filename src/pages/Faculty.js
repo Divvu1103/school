@@ -59,7 +59,7 @@ const Faculty = () => {
       </p>
       <div className="flex flex-wrap gap-x-3 gap-y-3 justify-center">
         <FacultyCard
-          name={"Dr Naveen Kumar B.V."}
+          name={"Dr Ambrish Kumar Batham"}
           src={fa1}
           des={"Principal"}
         />
