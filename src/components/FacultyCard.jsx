@@ -6,7 +6,7 @@ const FacultyCard = ({ name, src, des }) => {
     <Link
       to={`/faculty/${name}`}
       state={{ name, des, src }}
-      className="w-[300px] bg-white p-2 flex flex-col items-center content-center justify-center  justify-items-center"
+      className="w-[300px] bg-white p-2 flex flex-col items-center justify-center mx-auto"
     >
       <img src={src} className="rounded-full w-3/4 mx-auto" alt="" />
       <h2 className="text-center text-2xl font-semibold">{name}</h2>
