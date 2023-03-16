@@ -23,7 +23,6 @@ import Faculty from "./pages/Faculty";
 import NCSIM from "./pages/NCSIM";
 import Course from "./components/Course";
 import ContactUs from "./pages/ContactUs";
-import whatsapp from "../src/images/whatsapp.gif";
 import Gallery from "./pages/Gallery";
 import Apply from "./pages/Apply";
 import SingleFaculty from "./pages/SingleFaculty";
@@ -56,6 +55,7 @@ const App = () => {
         <Route path="/ncism-mandatory-disclouser" element={<NCSIM />} />
         <Route path="/facilities" element={<FacilitiesOffered />} />
         <Route path="/department" element={<Department />} />
+        <Route path="/faculty/:id" element={<FacultyDetail />} />
         <Route
           path="/yoga-for-humanity-azadi-ka-amrit-mahotsav"
           element={<Yoga />}

@@ -1,7 +1,13 @@
 import React from "react";
+import slugify from "slugify";
 import { Link } from "react-router-dom";
 
 const FacultyCard = ({ name, src, des }) => {
+  const generateSlug = (name) => {
+    return slugify(name, { lower: true });
+  };
+  const slug = generateSlug(name);
+  console.log(slug);
   return (
     <Link
       to={`/faculty/${name}`}
