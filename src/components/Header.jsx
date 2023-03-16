@@ -94,10 +94,18 @@ const Header = () => {
     <>
       <div className="bg-[#072a33] mt-7 flex items-center justify-between px-14 py-5 header">
         <p className="text-white">ADDRESS: FATEHGARH, FARRUKHABAD-209749</p>
-        <p className="text-white">EMAIL: sbsdaddujiaydcollege@gmail.com</p>
+        <p className="text-white">
+          EMAIL:{" "}
+          <a href="mailto:sbsdaddujiaydcollege@gmail.com">
+            sbsdaddujiaydcollege@gmail.com
+          </a>
+        </p>
         <p className="flex items-center">
           <FontAwesomeIcon icon={faTty} className="text-white" />
-          <p className="text-white ml-3">TOLL FREE: 8127942568</p>
+          <p className="text-white ml-3">
+            TOLL FREE: Call
+            <a href="tel:+918127942568">8127942568</a>
+          </p>
         </p>
         <button className="flex items-center border-white py-1 px-4 bg-white">
           <FontAwesomeIcon icon={faTelegram} className="text-[#072a33]" />
