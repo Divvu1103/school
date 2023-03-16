@@ -3,7 +3,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import banner1 from "../images/banner1.jpeg";
+import banner1 from "../images/babu singh daddu jii.jpg";
 import banner2 from "../images/banner2.jpeg";
 
 const Carousel = () => {

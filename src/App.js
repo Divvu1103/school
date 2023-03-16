@@ -70,7 +70,7 @@ const App = () => {
         <Route path="/apply" element={<Apply />} />
       </Routes>
       <a href="https://wa.me/919554964674" target="_blank">
-        <p className='p-3 text-4xl rounded-full text-white bg-[#4DC247] fixed bottom-4 right-4'>
+        <p className=' px-3 py-2 text-4xl rounded-full text-white bg-[#4DC247] fixed bottom-4 right-4'>
 
       <i class="fa-brands fa-whatsapp"></i>
         </p>
