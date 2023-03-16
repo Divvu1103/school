@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import Carousel from "./components/Carousel";
@@ -25,6 +26,7 @@ import ContactUs from "./pages/ContactUs";
 import whatsapp from "../src/images/whatsapp.gif";
 import Gallery from "./pages/Gallery";
 import Apply from "./pages/Apply";
+import SingleFaculty from "./pages/SingleFaculty";
 
 const Home = () => {
   return (
@@ -68,24 +70,12 @@ const App = () => {
         />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/apply" element={<Apply />} />
+        <Route path="/faculty/:id" element={<SingleFaculty />} />
       </Routes>
       <a href="https://wa.me/919554964674" target="_blank">
-        <p className=' px-3 py-2 text-4xl rounded-full text-white bg-[#4DC247] fixed bottom-4 right-4'>
-
-      <i class="fa-brands fa-whatsapp"></i>
+        <p className=" px-3 py-2 text-4xl rounded-full text-white bg-[#4DC247] fixed bottom-4 right-4">
+          <i class="fa-brands fa-whatsapp"></i>
         </p>
-        {/* <img
-          src={whatsapp}
-          className='p-5 rounded-full bg-[#4DC247]'
-          style={{
-            position: "fixed",
-            width: 100,
-            right: 30,
-            bottom:20,
-            zIndex:100,
-            marginTop: 300,
-          }}
-        /> */}
       </a>
 
       <Footer />
