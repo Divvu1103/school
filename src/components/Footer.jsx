@@ -17,13 +17,24 @@ const Footer = () => {
           </p>
           <div className="flex  gap-x-3 mt-3">
             <p className=" p-4  mx-auto  border border-gray-400 hover:bg-[#fff000] hover:scale-95 transition ease-in rounded-lg ">
-              <i class="fa-brands fa-facebook-f text-2xl"></i>
+              {" "}
+              <a
+                href="https://www.facebook.com/sbsdjaydmch/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-facebook-f text-2xl"></i>
+              </a>
             </p>
             <p className="p-4 mx-auto  border border-gray-400 hover:bg-[#fff000] hover:scale-95 transition ease-in rounded-lg">
+            <a href="mailto:sbsdaddujiaydcollege@gmail.com">
               <i class="fa-sharp fa-regular fa-envelope text-2xl"></i>
+              </a>
             </p>
             <p className="p-4  mx-auto border border-gray-400 hover:bg-[#fff000] hover:scale-95 transition ease-in rounded-lg">
-              <i class="fa-brands fa-instagram text-2xl"></i>
+            <a href="https://www.youtube.com/watch?v=hCSaSHqqdCU" target="_blank" rel="noopener noreferrer"></a>
+            <i class="fa-brands fa-youtube text-2xl"></i>
+
             </p>
           </div>
         </div>
@@ -41,18 +52,22 @@ const Footer = () => {
                 </div>
               </li>
               <li>
-                <a className="text-white " href="tel:+919554964674">+91-+91-9554964674,+91-8127942568</a>
+                <a className="text-white " href="tel:+919554964674">
+                  +91-+91-9554964674,+91-8127942568
+                </a>
               </li>
               <li>
-                <a className="text-white " href="tel:+919554964674">+91-+91-9554964674,+91-8127942568</a>
+                <a className="text-white " href="tel:+919554964674">
+                  +91-+91-9554964674,+91-8127942568
+                </a>
               </li>
               <li>
                 <div className="text-white ">
                   <i class="fa-regular fa-envelope text-2xl text-[#fff000]"></i>
                   <div className="font-bold text-base sm:text-base">
-                  <a href="mailto:sbsdaddujiaydcollege@gmail.com">
-            sbsdaddujiaydcollege@gmail.com
-          </a>
+                    <a href="mailto:sbsdaddujiaydcollege@gmail.com">
+                      sbsdaddujiaydcollege@gmail.com
+                    </a>
                   </div>{" "}
                 </div>
               </li>
@@ -87,11 +102,9 @@ const Footer = () => {
                     NCISM Mandatory Disclouser
                   </Link>
                 </a>
-                <a className="text-white text-base font-bold"><Link to="/contactus">
-                   
-                  Contact Us
-                  </Link> 
-                  </a>
+                <a className="text-white text-base font-bold">
+                  <Link to="/contactus">Contact Us</Link>
+                </a>
                 <a className="text-white text-base font-bold"> Gallery</a>
                 <a className="text-white text-base font-bold"> Apply Online</a>
                 <a className="text-white text-base font-bold">
@@ -107,22 +120,31 @@ const Footer = () => {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-white  text-base font-bold ">
+                <a
+                  className="text-white  text-base font-bold "
+                  target={"_blank"}
+                  href="https://www.ayush.gov.in/"
+                >
                   www.ayush.gov.in
                 </a>
               </li>
               <li>
-                <a className="text-white  text-base font-bold ">
+                <a
+                  className="text-white  text-base font-bold "
+                  target={"_blank"}
+                  href="https://ncismindia.org/"
+                >
                   www.ncismindia.orgk
                 </a>
               </li>
               <li>
-                <a className="text-white  text-base font-bold ">
+                <a
+                  className="text-white  text-base font-bold "
+                  target={"_blank"}
+                  href="http://www.kanpuruniversity.org/"
+                >
                   www.kanpuruniversity.org
                 </a>
-              </li>
-              <li>
-                <a className="text-white  text-base font-bold ">Fourth Link</a>
               </li>
             </nav>
           </div>
@@ -133,7 +155,6 @@ const Footer = () => {
           {" "}
           Copyright © 2023 SBSDJ Ayurvedic Medical College & Hospital. All
           Rights Reserved. Powered By NTechzy Pvt Ltd
-
         </p>
       </div>
     </footer>

@@ -4,6 +4,7 @@ import React from "react";
 import Carousel from "./components/Carousel";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ChooseUs from "./components/ChooseUs";
 import Department from "./pages/Department";
 import Hero from "./components/Hero";
 import Mission from "./components/Mission";
@@ -35,6 +36,7 @@ const Home = () => {
       <Mission />
       <Facilities />
       <Course />
+      <ChooseUs />
       <Updates />
     </>
   );
