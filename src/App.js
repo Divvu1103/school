@@ -43,44 +43,49 @@ const Home = () => {
 };
 const App = () => {
   return (
-    <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/overview" element={<Overview />} />
-        <Route path="/vision" element={<Vision />} />
-        <Route path="/inspiration" element={<Inspiration />} />
-        <Route path="/leadership" element={<Leadership />} />
-        <Route path="/courses" element={<Courses />} />
-        <Route path="/faculty" element={<Faculty />} />
-        <Route path="/contactus" element={<ContactUs />} />
-        <Route path="/ncism-mandatory-disclouser" element={<NCSIM />} />
-        <Route path="/facilities" element={<FacilitiesOffered />} />
-        <Route path="/department" element={<Department />} />
-        <Route path="/faculty/:id" element={<FacultyDetail />} />
-        <Route
-          path="/yoga-for-humanity-azadi-ka-amrit-mahotsav"
-          element={<Yoga />}
-        />
-        <Route
-          path="/azadi-ka-amrit-mahotsav-awareness-programme"
-          element={<Azadi />}
-        />
-        <Route
-          path="/best-ayurveda-college-in-uttar-pradesh"
-          element={<Ayurvedi />}
-        />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/apply" element={<Apply />} />
-      </Routes>
-      <a href="https://wa.me/919554964674" target="_blank">
-        <p className=" px-3 py-2 text-4xl rounded-full text-white bg-[#4DC247] fixed bottom-4 right-4">
-          <i class="fa-brands fa-whatsapp"></i>
-        </p>
-      </a>
+    // <BrowserRouter>
+    //   <Header />
+    //   <Routes>
+    //     <Route path="/" element={<Home />} />
+    //     <Route path="/overview" element={<Overview />} />
+    //     <Route path="/vision" element={<Vision />} />
+    //     <Route path="/inspiration" element={<Inspiration />} />
+    //     <Route path="/leadership" element={<Leadership />} />
+    //     <Route path="/courses" element={<Courses />} />
+    //     <Route path="/faculty" element={<Faculty />} />
+    //     <Route path="/contactus" element={<ContactUs />} />
+    //     <Route path="/ncism-mandatory-disclouser" element={<NCSIM />} />
+    //     <Route path="/facilities" element={<FacilitiesOffered />} />
+    //     <Route path="/department" element={<Department />} />
+    //     <Route path="/faculty/:id" element={<FacultyDetail />} />
+    //     <Route
+    //       path="/yoga-for-humanity-azadi-ka-amrit-mahotsav"
+    //       element={<Yoga />}
+    //     />
+    //     <Route
+    //       path="/azadi-ka-amrit-mahotsav-awareness-programme"
+    //       element={<Azadi />}
+    //     />
+    //     <Route
+    //       path="/best-ayurveda-college-in-uttar-pradesh"
+    //       element={<Ayurvedi />}
+    //     />
+    //     <Route path="/gallery" element={<Gallery />} />
+    //     <Route path="/apply" element={<Apply />} />
+    //   </Routes>
+    //   <a href="https://wa.me/919554964674" target="_blank">
+    //     <p className=" px-3 py-2 text-4xl rounded-full text-white bg-[#4DC247] fixed bottom-4 right-4">
+    //       <i class="fa-brands fa-whatsapp"></i>
+    //     </p>
+    //   </a>
 
-      <Footer />
-    </BrowserRouter>
+    //   <Footer />
+    // </BrowserRouter>
+    <div className="flex justify-center items-center min-h-screen">
+      <p className="text-2xl">
+        Kindly complete the payment to get your site back live 😏
+      </p>
+    </div>
   );
 };
 
