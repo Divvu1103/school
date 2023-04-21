@@ -4,7 +4,7 @@ import akb from '../images/akb.jpeg'
 
 const Hero = () => {
   return (
-    <div className="flex lg:flex-row my-5 items-center mid lg:justify-between lg:mx-44 flex-col mx-10">
+    <div className="flex lg:flex-row my-5 gap-x-4 items-center mid lg:justify-between lg:mx-44 flex-col mx-10">
       <div className="lg:w-[200px]">
         <img
           src={asy}

@@ -92,7 +92,7 @@ const Header = () => {
   ];
   return (
     <>
-      <div className="bg-[#072a33] mt-7 flex items-center justify-between px-14 py-5 header">
+      <div className="bg-[#072a33]  flex items-center justify-between px-14 py-3 header">
         <p className="text-white">ADDRESS: FATEHGARH, FARRUKHABAD-209749</p>
         <p className="text-white">
           EMAIL:{" "}
@@ -107,7 +107,7 @@ const Header = () => {
             <a href="tel:+918127942568">8127942568</a>
           </p>
         </p>
-        <button className="flex items-center border-white py-1 px-4 bg-white">
+        <button className="flex items-center border-white ml-1 py-1 px-3 bg-white">
           <FontAwesomeIcon icon={faTelegram} className="text-[#072a33]" />
           <p
             className="text-[#072a33] ml-3 font-bold"
@@ -116,7 +116,7 @@ const Header = () => {
             APPLY NOW
           </p>
         </button>
-        <button className="bg-[#FFFF00]  py-1 px-4 text-[#072a33] font-bold">
+        <button className="bg-[#FFFF00]  py-1 px-3 text-[#072a33] font-bold">
           DOWNLOAD E-BROCHURE
         </button>
         {isOpen && (
@@ -379,7 +379,7 @@ const Header = () => {
           </div>
         )}
       </div>
-      <nav className="bg-[#f1f1f1] border-b-2 mt-7 shadow-xl px-10 py-5 flex items-center justify-between nav">
+      <nav className="bg-[#f1f1f1] border-b-2  shadow-xl px-10 py-3 flex items-center justify-between nav">
         <p className="flex items-center">
           <img src={logo} width={80} />
           <p className="text-[#072a33] text-xs w-[220px] ml-3 text-center">

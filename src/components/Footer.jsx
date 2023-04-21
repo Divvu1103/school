@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="text-white body-font bg-[#072a33]">
       <div className="container px-5  py-8 sm:py-24  flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-        <div className="w-auto sm:w-1/4 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <div className="w-auto sm:w-1/5 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <span className="ml-3 text-lg">
             SHRI BABU SINGH DADDU JI AYURVEDIC MEDICAL COLLEGE & HOSPITAL
           </span>
@@ -15,8 +15,8 @@ const Footer = () => {
             Kanpur Road, Krishna Nagar Baghar - Fatehgarh, Farrukhabad Uttar
             Pradesh India - 209749
           </p>
-          <div className="flex  gap-x-3 mt-3">
-            <p className=" p-4  mx-auto  border border-gray-400 hover:bg-[#fff000] hover:scale-95 transition ease-in rounded-lg ">
+          <div className="flex gap-x-3 mt-1">
+            <p className=" p-4    border border-gray-400 hover:bg-[#fff000] hover:scale-95 transition ease-in rounded-lg ">
               {" "}
               <a
                 href="https://www.facebook.com/sbsdjaydmch/"
@@ -26,12 +26,12 @@ const Footer = () => {
                 <i class="fa-brands fa-facebook-f text-2xl"></i>
               </a>
             </p>
-            <p className="p-4 mx-auto  border border-gray-400 hover:bg-[#fff000] hover:scale-95 transition ease-in rounded-lg">
+            <p className="p-4   border border-gray-400 hover:bg-[#fff000] hover:scale-95 transition ease-in rounded-lg">
             <a href="mailto:sbsdaddujiaydcollege@gmail.com">
               <i class="fa-sharp fa-regular fa-envelope text-2xl"></i>
               </a>
             </p>
-            <p className="p-4  mx-auto border border-gray-400 hover:bg-[#fff000] hover:scale-95 transition ease-in rounded-lg">
+            <p className="p-4   border border-gray-400 hover:bg-[#fff000] hover:scale-95 transition ease-in rounded-lg">
             <a href="https://www.youtube.com/watch?v=hCSaSHqqdCU" target="_blank" rel="noopener noreferrer"></a>
             <i class="fa-brands fa-youtube text-2xl"></i>
 
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
         </div>
         <div className=" flex flex-wrap md: -mb-10 md:mt-0 mt-10 md:text-left text-center">
-          <div className="lg:w-2/6 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 px-3 md:w-1/2 w-full">
             <h2 className="title-font  text-white tracking-widest text-2xl font-bold mb-3">
               Contact
             </h2>
@@ -73,7 +73,7 @@ const Footer = () => {
               </li>
             </nav>
           </div>
-          <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 px-3 md:w-1/2 w-full ">
             <h2 className="title-font  text-white tracking-widest text-2xl font-bold mb-3">
               Quick Links
             </h2>
@@ -114,7 +114,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 md:w-1/2 w-full">
             <h2 className="title-font  text-white tracking-widest text-2xl font-bold mb-3">
               Important Links
             </h2>
@@ -148,6 +148,18 @@ const Footer = () => {
               </li>
             </nav>
           </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full"> 
+          <iframe
+              src={
+                "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5357.676838155396!2d79.61932979750057!3d27.29464780933141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399e3bb6d36d4797%3A0x8308704212936dd!2sShri%20Babu%20Singh%20Daddu%20Ji%20Ayurvedic%20Medical%20College%20and%20Hospital%20-%20Ayurvedic%20College%20Farrukhabad!5e0!3m2!1sen!2sin!4v1678903070110!5m2!1sen!2sin"
+              }
+              width={"100%"}
+              height={"100%"}
+              allowfullscreen=""
+              loading={"lazy"}
+              referrerpolicy={"no-referrer-when-downgrade"}
+              ></iframe>
+              </div>
         </div>
       </div>
       <div className="bg-bg-[#00142A] border-t-2 border-gray-500">
