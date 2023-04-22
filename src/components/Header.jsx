@@ -397,10 +397,7 @@ const Header = () => {
           Home
         </Link>
         <ul className="flex flex-col" onMouseEnter={() => setAboutToggle(true)}>
-          <button
-            className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2"
-            onClick={() => setAboutToggle(!aboutToggle)}
-          >
+          <button className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
             About
             {!aboutToggle ? (
               <FontAwesomeIcon
@@ -414,7 +411,10 @@ const Header = () => {
               />
             )}
           </button>
-          <ul className="flex flex-col justify-center items-center bg-[#f1f1f1] gap-y-3 absolute mt-14 -ml-5 z-10">
+          <ul
+            className="flex flex-col justify-center items-center bg-[#f1f1f1] gap-y-3 absolute mt-14 -ml-5 z-10"
+            onMouseLeave={() => setAboutToggle(!aboutToggle)}
+          >
             {aboutToggle &&
               aboutItems.map((menu, index) => (
                 <div key={index}>
@@ -430,10 +430,7 @@ const Header = () => {
           className="flex flex-col"
           onMouseEnter={() => setAcademicToggle(true)}
         >
-          <button
-            className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2"
-            onClick={() => setAcademicToggle(!academicToggle)}
-          >
+          <button className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
             Academics
             {!academicToggle ? (
               <FontAwesomeIcon
@@ -447,7 +444,10 @@ const Header = () => {
               />
             )}
           </button>
-          <ul className="flex flex-col justify-center items-center bg-[#f1f1f1] gap-y-3 absolute mt-14 -ml-5 z-10">
+          <ul
+            className="flex flex-col justify-center items-center bg-[#f1f1f1] gap-y-3 absolute mt-14 -ml-5 z-10"
+            onMouseLeave={() => setAcademicToggle(!academicToggle)}
+          >
             {academicToggle &&
               academicItems.map((menu, index) => (
                 <div key={index}>
@@ -469,10 +469,7 @@ const Header = () => {
           onMouseEnter={() => setNewsToggle(true)}
           className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2"
         >
-          <button
-            className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2"
-            onClick={() => setNewsToggle(!newsToggle)}
-          >
+          <button className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
             News and Events
             {!newsToggle ? (
               <FontAwesomeIcon
@@ -486,7 +483,10 @@ const Header = () => {
               />
             )}
           </button>
-          <ul className="flex flex-col justify-center items-center bg-[#f1f1f1] gap-y-3 absolute mt-96 w-48 -ml-5 z-10">
+          <ul
+            onMouseLeave={() => setNewsToggle(!newsToggle)}
+            className="flex flex-col justify-center items-center bg-[#f1f1f1] gap-y-3 absolute mt-96 w-48 -ml-5 z-10"
+          >
             {newsToggle &&
               newsItems.map((menu, index) => (
                 <div key={index}>
@@ -512,10 +512,7 @@ const Header = () => {
           Contact Us
         </Link>
         <ul className="flex flex-col" onMouseEnter={() => setMoreToggle(true)}>
-          <button
-            className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2"
-            onClick={() => setMoreToggle(!moreToggle)}
-          >
+          <button className="font-semibold text-[#7a7a7a] flex items-center text-lg hover:text-[#0f2441] hover:border-b-[#0f2441] hover:border-b-2">
             More
             {!moreToggle ? (
               <FontAwesomeIcon
@@ -529,7 +526,10 @@ const Header = () => {
               />
             )}
           </button>
-          <ul className="flex flex-col justify-center items-center bg-[#f1f1f1] gap-y-3 absolute mt-14 -ml-5 z-10">
+          <ul
+            onMouseLeave={() => setMoreToggle(!moreToggle)}
+            className="flex flex-col justify-center items-center bg-[#f1f1f1] gap-y-3 absolute mt-14 -ml-5 z-10"
+          >
             {moreToggle &&
               moreItems.map((menu, index) => (
                 <div key={index}>
